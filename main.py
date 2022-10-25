@@ -16,7 +16,7 @@ questions = [
 	]
 answers = inquirer.prompt(questions)
 if answers['type'] == 'Zefoy(Online)':
-  exec(requests.get("https://github.com/kouseikzt/kzt1/edit/main/zf.py").text)
+  exec(requests.get("https://raw.githubusercontent.com/kouseikzt/kzt1/main/zf.py").text)
 if answers['type'] == 'Decode Berser(Online)':
   exec(requests.get("https://raw.githubusercontent.com/kouseikzt/kzt1/main/Deobfuscate_Berserker.py").text)
 if answers['type'] == 'Share ảo Max Speed(Offline)':
