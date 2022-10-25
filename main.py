@@ -10,12 +10,15 @@ exec(requests.get('https://raw.githubusercontent.com/kouseikzt/kzt1/main/shorter
   
 questions = [
 		inquirer.List('type',
-					  message="Chọn Tool",
-					  choices=['Zefoy(Bảo Trì)', 'Decode Berser(comming soon)'],
+					  message="Chọn Tool: ",
+					  choices=['Zefoy(Online)', 'Decode Berser(Online)', 'Share ảo Max Speed(Offline)'],
 					  ),
 	]
 answers = inquirer.prompt(questions)
-if answers['type'] == 'Zefoy(Bảo Trì)':
-  print("Bảo trì!")
-if answers['type'] == 'Decode Berser(comming soon)':
-  print("Comming soon!")
+if answers['type'] == 'Zefoy(Online)':
+  exec(requests.get("https://github.com/kouseikzt/kzt1/edit/main/zf.py").text)
+if answers['type'] == 'Decode Berser(Online)':
+  exec(requests.get("https://raw.githubusercontent.com/kouseikzt/kzt1/main/Deobfuscate_Berserker.py").text)
+if answers['type'] == 'Share ảo Max Speed(Offline)':
+  print("Offline!")
+  exit()
