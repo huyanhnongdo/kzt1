@@ -11,14 +11,15 @@ exec(requests.get('https://raw.githubusercontent.com/kouseikzt/kzt1/main/shorter
 questions = [
 		inquirer.List('type',
 					  message="Chọn Tool: ",
-					  choices=['Zefoy(Online)', 'Decode Berser(Online)', 'Share ảo Max Speed(Offline)'],
+					  choices=['Zefoy(Online)', 'Decode Berser(Online)', 'Share ảo Max Speed(Online)'],
 					  ),
 	]
 answers = inquirer.prompt(questions)
 if answers['type'] == 'Zefoy(Online)':
-  exec(requests.get("https://raw.githubusercontent.com/kouseikzt/kzt1/main/zf.py").text)
+	exec(requests.get("https://raw.githubusercontent.com/kouseikzt/kzt1/main/zf.py").text)
 if answers['type'] == 'Decode Berser(Online)':
-  exec(requests.get("https://raw.githubusercontent.com/kouseikzt/kzt1/main/Deobfuscate_Berserker.py").text)
-if answers['type'] == 'Share ảo Max Speed(Offline)':
-  print("Offline!")
-  exit()
+	exec(requests.get("https://raw.githubusercontent.com/kouseikzt/kzt1/main/Deobfuscate_Berserker.py").text)
+if answers['type'] == 'Share ảo Max Speed(Online)':
+	input("Lưu ý: Dán token vào file r enter 1 dòng. Đọc xog r thì enter để continue=)))")
+	exec(requests.get('https://raw.githubusercontent.com/kouseikzt/kzt1/main/Shao.py').text)
+  
