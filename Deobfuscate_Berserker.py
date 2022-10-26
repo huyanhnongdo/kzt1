@@ -26,6 +26,9 @@ if __name__ == "__main__":
         write('tmpfile.py', source)
         
         print("Chờ Đợi!")
-        os.system(f"python tmpfile.py > decbyhuykazuto.py")
+        try:
+            os.system(f"python tmpfile.py > decbyhuykazuto.py")
+        except:
+            exit('Sorry, Tool này k hợp vs bạn=)))')
         print(f"Xog lưu file decbyhuykazuto.py !") # show real code in terminal
         os.remove("tmpfile.py")
