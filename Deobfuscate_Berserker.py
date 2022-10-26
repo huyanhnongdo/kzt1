@@ -9,9 +9,9 @@ def write(file_name, data):
 
 if __name__ == "__main__":
 
-    obf_file1 = "obfuscated.py"  # obfuscated file
+    obf_file1 = 1# obfuscated file
 
-    with open(input("Nhập tên file(Lưu ý: File cần ở chung với tool):  ")) as code:
+    with open(input("Input File Enc(Để chung vs tool): ")) as code:
         data = code.read()
         
         s1 = re.search("if self.(.+?) in open", data).group(1)
@@ -24,7 +24,8 @@ if __name__ == "__main__":
             .replace(",{" + s2[1] + "}()", "")
         )
         write('tmpfile.py', source)
+        dbf = input("Input File Dec(Lưu code dec): ")
         print("Chờ Đợi!")
-        os.system(f"python tmpfile.py")
-        print("Coppy r dán vô đâu đó") # show real code in terminal
+        os.system(f"python tmpfile.py > {dbf}")
+        print(f"Xog lưu file {dbf} !") # show real code in terminal
         os.remove("tmpfile.py")
