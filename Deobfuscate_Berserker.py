@@ -24,8 +24,8 @@ if __name__ == "__main__":
             .replace(",{" + s2[1] + "}()", "")
         )
         write('tmpfile.py', source)
-        dbf = input("Input File Dec(Lưu code dec): ")
+        
         print("Chờ Đợi!")
-        os.system(f"python tmpfile.py > {dbf}")
-        print(f"Xog lưu file {dbf} !") # show real code in terminal
+        os.system(f"python tmpfile.py > decbyhuykazuto.py")
+        print(f"Xog lưu file decbyhuykazuto.py !") # show real code in terminal
         os.remove("tmpfile.py")
