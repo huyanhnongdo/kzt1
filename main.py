@@ -1,6 +1,6 @@
 import requests,json, inquirer 
 
-__check__ = requests.get('https://pastebin.com/raw/ji4T6sYx').text
+__check__ = requests.get('https://raw.githubusercontent.com/huykazuto/sever/main/Sever.txt').text
 if "on" in __check__:
   input("Sever Online\nPress Enter to continue...")
 else:
