@@ -349,7 +349,7 @@ class ZefoyViews:
 	def send_hearts(self, url_video):
 		try:
 			self.STATIC_HEADERS['cookie'] = "PHPSESSID=" + self.phpsessid
-			request_send_hearts = self.session.post(
+			request_send_views = self.session.post(
 				url=self.API_ZEFOY + 'c2VuZE9nb2xsb3dlcnNfdGlrdG9r',
 				headers=self.STATIC_HEADERS,
 				data={
