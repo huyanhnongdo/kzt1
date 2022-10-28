@@ -353,7 +353,7 @@ class ZefoyViews:
 				url=self.API_ZEFOY + 'c2VuZE9nb2xsb3dlcnNfdGlrdG9r',
 				headers=self.STATIC_HEADERS,
 				data={
-					self.key_hearts: url_video,
+					self.key_views: url_video,
 				}
 			)
 			# https://stackoverflow.com/questions/58120947/base64-and-xor-operation-needed
