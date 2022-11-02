@@ -263,6 +263,8 @@ def main():
 				if answers['type'] == 'Views':
 					os.system("cls" if os.name == "nt" else "clear"); os.system("title TikTok Viewbot by @HuyKazuto" if os.name == "nt" else "")
 					while True:
+						date = datetime.datetime.now()
+						hours = date.strftime("%H:%M:%S")
 						inject_views = inject.send_multi_services(url_video=url_video, services=answers['type'], )
 
 						if inject_views:
@@ -306,6 +308,8 @@ def main():
 				elif answers['type'] == 'Shares':
 					os.system("cls" if os.name == "nt" else "clear"); os.system("title TikTok Sharebot by @HuyKazuto" if os.name == "nt" else "")
 					while True:
+						date = datetime.datetime.now()
+						hours = date.strftime("%H:%M:%S")
 						inject_shares = inject.send_multi_services(url_video=url_video, services=answers['type'], )
 
 						if inject_shares:
@@ -349,6 +353,8 @@ def main():
 				elif answers['type'] == 'Favorites':
 					os.system("cls" if os.name == "nt" else "clear"); os.system("title TikTok Favoritebot by @HuyKazuto" if os.name == "nt" else "")
 					while True:
+						date = datetime.datetime.now()
+						hours = date.strftime("%H:%M:%S")
 						inject_favorites = inject.send_multi_services(url_video=url_video, services=answers['type'], )
 
 						if inject_favorites:
@@ -393,6 +399,8 @@ def main():
 				elif answers['type'] == 'Hearts':
 					os.system("cls" if os.name == "nt" else "clear"); os.system("title TikTok Heartbot by @HuyKazuto" if os.name == "nt" else "")
 					while True:
+						date = datetime.datetime.now()
+						hours = date.strftime("%H:%M:%S")
 						inject_hearts = inject.send_multi_services(url_video=url_video, services=answers['type'], )
 
 						if inject_hearts:
