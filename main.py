@@ -2,7 +2,7 @@ import requests,json, inquirer
 
 __check__ = requests.get('https://raw.githubusercontent.com/huykazuto/sever/main/Sever.txt').text
 if "on" in __check__:
-  exit("Sever Online\nPress Enter to continue...")
+  input("Sever Online\nPress Enter to continue...")
 else:
   exit("Sever Offline")
 
