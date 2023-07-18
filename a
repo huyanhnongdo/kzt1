@@ -1,0 +1,1560 @@
+huykaiserdevscans_low_security.py (Python 3.11)
+[Code]
+    File Name: <x>
+    Object Name: <module>
+    Qualified Name: <module>
+    Arg Count: 0
+    Pos Only Arg Count: 0
+    KW Only Arg Count: 0
+    Stack Size: 6
+    Flags: 0x00000000
+    [Names]
+        're'
+        'requests'
+        'os'
+        'threading'
+        'system'
+        'name'
+        'shttp'
+        'psock'
+        'huydev'
+        'text'
+        'print'
+        'input'
+        'filename_http'
+        'filename_sock'
+        'open'
+        'file_http'
+        'file_sock'
+        'good_proxies_http'
+        'good_proxies_sock'
+        'huykaiser_one'
+        'huykaiser_two'
+        'huykaiser_three'
+        'huykaiser_four'
+        'huykaiser_five'
+        'huykaiser_six'
+        'huykaiser_seven'
+        'huykaiser_eight'
+        'huykaiser_nine'
+        'huykaiser_ten'
+        'start'
+        'strip'
+        'split'
+        'httpl'
+        'sockl'
+        'threads'
+        'url'
+        'Thread'
+        'x'
+        'append'
+        'th'
+        'join'
+        'list'
+        'set'
+        'hpp'
+        'spp'
+        'len'
+        'total_proxies'
+        'close'
+    [Locals+Names]
+    [Constants]
+        0
+        None
+        'nt'
+        'cls'
+        'clear'
+        '\nhttps://tcplegitxnight.store/http.txt\nhttps://tcplegitxnight.store/https.txt\nhttps://raw.githubusercontent.com/MuRongPIG/Proxy-Master/main/http.txt\nhttps://api.proxyscrape.com/?request=displayproxies&proxytype=http&country=all\nhttps://api.proxyscrape.com/?request=displayproxies&proxytype=https&country=all\nhttps://api.proxyscrape.com/?request=displayproxies&proxytype=all&country=all\nhttps://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all\nhttps://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all&ssl=yes\nhttps://www.proxy-list.download/api/v1/get?type=http&anon=elite\nhttps://www.proxy-list.download/api/v1/get?type=http&anon=anonymous\nhttps://raw.githubusercontent.com/Kenne400k/proxy100k/main/proxy100k\n    https://api.proxyscrape.com/?request=displayproxies&proxytype=http\n    https://api.openproxylist.xyz/http.txt\n    http://alexa.lr2b.com/proxylist.txt\n    https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\n    https://proxy-spider.com/api/proxies.example.txt\n    https://sheesh.rip/http.txt\n    https://www.freeproxychecker.com/result/http_proxies.txt\n    https://raw.githubusercontent.com/proxy4parsing/proxy-list/main/http.txt\n    http://proxysearcher.sourceforge.net/Proxy%20List.php?type=http\n    https://api.proxyscrape.com/v2/?request=getproxies&protocol=http\n    https://openproxy.space/list/http\n    https://openproxylist.xyz/http.txt\n    https://raw.githubusercontent.com/almroot/proxylist/master/list.txt\n    https://raw.githubusercontent.com/B4RC0DE-TM/proxy-list/main/HTTP.txt\n    https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt\n    https://raw.githubusercontent.com/hendrikbgr/Free-Proxy-Repo/master/proxy_list.txt\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-https.txt\n    https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt\n    https://raw.githubusercontent.com/mmpx12/proxy-list/master/http.txt\n    https://raw.githubusercontent.com/mmpx12/proxy-list/master/https.txt\n    https://raw.githubusercontent.com/proxy4parsing/proxy-list/main/http.txt\n    https://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt\n    https://raw.githubusercontent.com/RX4096/proxy-list/main/online/http.txt\n    https://raw.githubusercontent.com/RX4096/proxy-list/main/online/https.txt\n    https://raw.githubusercontent.com/saschazesiger/Free-Proxies/master/proxies/http.txt\n    https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt\n    https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/https.txt\n    https://raw.githubusercontent.com/sunny9577/proxy-scraper/master/proxies.txt\n    https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\n    https://rootjazz.com/proxies/proxies.txt\n    https://sheesh.rip/http.txt\n    https://spys.me/proxy.txt\n    https://www.freeproxychecker.com/result/http_proxies.txt\n    https://www.proxy-list.download/api/v1/get?type=http\n    https://www.proxy-list.download/api/v1/get?type=https\n    https://www.proxyscan.io/download?type=http\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-https.txt\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt\n    https://api.proxyscrape.com/v2/?request=getproxies&protocol=http&timeout=10000&country=all\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-https.txt\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-http.txt\n    https://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt\n    https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt\n    https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\n    https://www.proxy-list.download/api/v1/get?type=http\n    https://www.proxy-list.download/api/v1/get?type=https\n    https://www.proxyscan.io/download?type=http\n    https://www.proxyscan.io/download?type=https\n    https://api.openproxylist.xyz/http.txt\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks4.txt\n    https://api.proxyscrape.com/v2/?request=getproxies&protocol=socks4&timeout=10000&country=all\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-socks4.txt\n    https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS4_RAW.txt\n    https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks4.txt\n    https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt\n    https://www.proxy-list.download/api/v1/get?type=socks4\n    https://www.proxyscan.io/download?type=socks4\n    https://api.openproxylist.xyz/socks4.txt\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks5.txt\n    https://api.proxyscrape.com/v2/?request=getproxies&protocol=socks5&timeout=10000&country=all\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-socks5.txt\n    https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS5_RAW.txt\n    https://github.com/jetkai/proxy-list/blob/main/archive/txt/proxies-socks5.txt\n    https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks5.txt\n    https://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt\n    https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt\n    https://www.proxy-list.download/api/v1/get?type=socks5\n    https://www.proxyscan.io/download?type=socks5\n    https://api.openproxylist.xyz/socks5.txt\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies.txt\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies.txt\n    https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt\n    https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/proxy.txt\n    http://hack-hack.chat.ru/proxy/allproxy.txt\n    http://hack-hack.chat.ru/proxy/p1.txt\n    http://hack-hack.chat.ru/proxy/p2.txt\n    http://hack-hack.chat.ru/proxy/p3.txt\n    http://hack-hack.chat.ru/proxy/p4.txt\n    http://olaf4snow.com/public/proxy.txt\n    http://alexa.lr2b.com/proxylist.txt\n    http://inav.chat.ru/ftp/proxy.txt\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-https.txt\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt\n    https://api.proxyscrape.com/v2/?request=getproxies&protocol=http&timeout=500&country=all\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-https.txt\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-http.txt\n    https://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt\n    https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt\n    https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\n    https://www.proxy-list.download/api/v1/get?type=http\n    https://www.proxyscan.io/download?type=http\n    https://api.openproxylist.xyz/http.txt\n    https://github.com/mmpx12/proxy-list/raw/master/http.txt\nhttps://github.com/UptimerBot/proxy-list/raw/main/proxies/http.txt\nhttps://github.com/monosans/proxy-list/raw/main/proxies/http.txt\nhttps://github.com/jetkai/proxy-list/raw/main/online-proxies/txt/proxies-http.txt\nhttps://github.com/TheSpeedX/PROXY-List/raw/master/http.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt\nhttps://raw.githubusercontent.com/thespeedx/proxy-list/master/http.txt\nhttps://raw.githubusercontent.com/shiftytr/proxy-list/master/http.txt\nhttps://raw.githubusercontent.com/proxy4parsing/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt\nhttps://raw.githubusercontent.com/mmpx12/proxy-list/master/http.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt\nhttps://raw.githubusercontent.com/hyperbeats/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-http.txt\nhttps://api.openproxylist.xyz/http.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt\nhttps://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt\nhttps://raw.githubusercontent.com/HyperBeats/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/proxy4parsing/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt\nhttps://raw.githubusercontent.com/mmpx12/proxy-list/master/http.txt\nhttps://api.openproxylist.xyz/http.txt\nhttps://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-http.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt\nhttps://raw.githubusercontent.com/proxylist-to/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt\nhttps://proxyspace.pro/http.txt\nhttp://k2ysarchive.xyz/proxy/http.txt\nhttps://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\nhttps://api.openproxylist.xyz/http.txt\nhttps://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/http.txt\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\nhttps://api.openproxylist.xyz/http.txt\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\nhttps://raw.githubusercontent.com/Bardiafa/Proxy-Leecher/main/proxies.txt\nhttps://raw.githubusercontent.com/Bardiafa/Proxy-Leecher/main/good.txt\nhttps://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/http.txt\nhttps://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt\nhttps://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt\nhttps://raw.githubusercontent.com/ALIILAPRO/Proxy/main/http.txt\nhttps://raw.githubusercontent.com/yemixzy/proxy-list/main/proxies/http.txt\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\nhttps://raw.githubusercontent.com/yoannchb-pro/https-proxies/main/proxies.txt\nhttps://raw.githubusercontent.com/UptimerBot/proxy-list/master/proxies/http.txt\nhttps://raw.githubusercontent.com/UptimerBot/proxy-list/master/proxies/http.txt\nhttps://raw.githubusercontent.com/UptimerBot/proxy-list/master/proxies/http.txt\nhttps://raw.githubusercontent.com/andigwandi/free-proxy/main/proxy_list.txt\nhttps://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/http/http.txt\nhttps://raw.githubusercontent.com/proxy4parsing/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt\nhttps://raw.githubusercontent.com/sunny9577/proxy-scraper/master/proxies.txt\nhttps://raw.githubusercontent.com/caliphdev/Proxy-List/master/http.txt\nhttps://raw.githubusercontent.com/zevtyardt/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/fahimscirex/proxybd/master/anonymous-proxylist/http.txt\nhttps://raw.githubusercontent.com/ToShukKr/rProxyList/main/proxy-list.txt\nhttps://raw.githubusercontent.com/prxchk/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/saisuiu/Lionkings-Http-Proxys-Proxies/main/free.txt\nhttp://globalproxies.blogspot.com/\nhttp://www.cybersyndrome.net/plz.html\nhttp://www.cybersyndrome.net/plr5.html\nhttp://biskutliat.blogspot.com/\nhttp://freeproxylist-daily.blogspot.com/2013/05/usa-proxy-list-2013-05-15-0111-am-gmt8.html\nhttp://freeproxylist-daily.blogspot.com/2013/05/usa-proxy-list-2013-05-13-812-gmt7.html\nhttp://www.cybersyndrome.net/pla5.html\nhttp://vipprox.blogspot.com/2013_06_01_archive.html\nhttp://vipprox.blogspot.com/2013/05/us-proxy-servers-74_24.html\nhttp://vipprox.blogspot.com/p/blog-page_7.html\nhttp://vipprox.blogspot.com/2013/05/us-proxy-servers-199_20.html\nhttp://vipprox.blogspot.com/2013_02_01_archive.html\nhttp://alexa.lr2b.com/proxylist.txt\nhttp://vipprox.blogspot.com/2013_03_01_archive.html\nhttp://browse.feedreader.com/c/Proxy_Server_List-1/449196260\nhttp://browse.feedreader.com/c/Proxy_Server_List-1/449196258\nhttp://sock5us.blogspot.com/2013/06/01-07-13-free-proxy-server-list.html#comment-form\nhttp://browse.feedreader.com/c/Proxy_Server_List-1/449196251\nhttp://free-ssh.blogspot.com/feeds/posts/default\nhttp://browse.feedreader.com/c/Proxy_Server_List-1/449196259\nhttp://sockproxy.blogspot.com/2013/04/11-04-13-socks-45.html\nhttp://proxyfirenet.blogspot.com/\nhttps://www.javatpoint.com/proxy-server-list\nhttps://openproxy.space/list/http\nhttp://proxydb.net/\nhttp://olaf4snow.com/public/proxy.txt\nhttp://westdollar.narod.ru/proxy.htm\nhttps://openproxy.space/list/socks4\nhttps://openproxy.space/list/socks5\nhttp://tomoney.narod.ru/help/proxi.htm\nhttp://sergei-m.narod.ru/proxy.htm\nhttp://rammstein.narod.ru/proxy.html\nhttp://greenrain.bos.ru/R_Stuff/Proxy.htm\nhttp://inav.chat.ru/ftp/proxy.txt\nhttp://johnstudio0.tripod.com/index1.htm\nhttp://atomintersoft.com/transparent_proxy_list\nhttp://atomintersoft.com/anonymous_proxy_list\nhttp://atomintersoft.com/high_anonymity_elite_proxy_list\nhttp://atomintersoft.com/products/alive-proxy/proxy-list/3128\nhttp://atomintersoft.com/products/alive-proxy/proxy-list/com\nhttp://atomintersoft.com/products/alive-proxy/proxy-list/high-anonymity/\nhttp://atomintersoft.com/products/alive-proxy/socks5-list\nhttp://atomintersoft.com/proxy_list_domain_com\nhttp://atomintersoft.com/proxy_list_domain_edu\nhttp://atomintersoft.com/proxy_list_domain_net\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt\nhttp://atomintersoft.com/proxy_list_domain_org\nhttp://atomintersoft.com/proxy_list_port_3128\nhttp://atomintersoft.com/proxy_list_port_80\nhttp://atomintersoft.com/proxy_list_port_8000\nhttp://atomintersoft.com/proxy_list_port_81\nhttp://hack-hack.chat.ru/proxy/allproxy.txt\nhttps://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt\nhttp://hack-hack.chat.ru/proxy/anon.txt\nhttp://hack-hack.chat.ru/proxy/p1.txt\nhttp://hack-hack.chat.ru/proxy/p2.txt\nhttp://hack-hack.chat.ru/proxy/p3.txt\nhttp://hack-hack.chat.ru/proxy/p4.txt\nhttps://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\nhttps://free-proxy-list.net/\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies.txt\nhttps://www.us-proxy.org/\nhttps://free-proxy-list.com/\nhttps://raw.githubusercontent.com/sunny9577/proxy-scraper/master/proxies.txt\nhttps://api.proxyscrape.com/?request=getproxies&proxytype=http&timeout=10000&country=all&ssl=all&anonymity=all\nhttps://api.proxyscrape.com/?request=getproxies&proxytype=socks4&timeout=10000&country=all\nhttps://api.proxyscrape.com/?request=getproxies&proxytype=socks5&timeout=10000&country=all\nhttps://spys.one/\nhttps://api.proxyscrape.com/?request=getproxies&proxytype=https&timeout=10000&country=all&ssl=all&anonymity=all\nhttps://api.proxyscrape.com/v2/?request=getproxies&protocol=socks4&timeout=10000&country=all\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/proxy.txt\nhttps://api.proxyscrape.com/v2/?request=getproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all\nhttps://api.proxyscrape.com/v2/?request=getproxies&protocol=socks5&timeout=10000&country=all\nhttps://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt\nhttps://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS4_RAW.txt\nhttps://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS5_RAW.txt\nhttps://api.openproxylist.xyz/http.txt\nhttps://api.openproxylist.xyz/socks4.txt\nhttps://api.openproxylist.xyz/socks5.txt\nhttps://www.proxy-list.download/api/v1/get?type=http\nhttps://www.proxy-list.download/api/v1/get?type=https\nhttps://www.proxy-list.download/api/v1/get?type=socks4\nhttps://www.proxy-list.download/api/v1/get?type=socks5\nhttps://www.proxyscan.io/download?type=http\nhttps://www.proxyscan.io/download?type=https\nhttps://www.proxyscan.io/download?type=socks4\nhttps://www.proxyscan.io/download?type=socks5\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\nhttps://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4\nhttps://api.proxyscrape.com/?request=displayproxies&proxytype=socks4\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks4.txt\nhttps://www.proxy-list.download/api/v1/get?type=socks4\nhttps://www.proxyscan.io/download?type=socks4\nhttps://api.openproxylist.xyz/socks4.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/socks4.txt\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt\nhttps://www.my-proxy.com/free-socks-4-proxy.html\nhttps://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS4_RAW.txt\nhttp://proxysearcher.sourceforge.net/Proxy/List.php?type=socks\nhttps://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/socks4.txt\nhttp://www.socks24.org/feeds/posts/default\nhttps://www.freeproxychecker.com/result/socks4_proxies.txt\nhttp://worm.rip/socks4.txt\nhttps://www.freeproxychecker.com/result/socks4_proxies.txt\nhttp://k2ysarchive.xyz/proxy/socks4.txt\nhttps://api.proxyscrape.com/?request=displayproxies&proxytype=socks5\nhttps://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks5\nhttps://www.proxy-list.download/api/v1/get?type=socks5\nhttps://www.proxyscan.io/download?type=socks5\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/socks5.txt\nhttps://www.my-proxy.com/free-socks-5-proxy.html\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks5.txt\nhttps://github.com/roosterkid/openproxylist/blob/main/SOCKS5_RAW.txt\nhttps://api.openproxylist.xyz/socks5.txt\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt\nhttps://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks5\nhttp://www.socks24.org/feeds/posts/default\nhttps://www.freeproxychecker.com/result/socks5_proxies.txt\nhttps://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/socks5.txt\nhttp://worm.rip/socks5.txt\nhttps://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt\nhttp://k2ysarchive.xyz/proxy/socks5.txt\nhttps://api.proxyscrape.com/?request=displayproxies&proxytype=http\nhttps://www.proxy-list.download/api/v1/get?type=http\nhttps://www.proxyscan.io/download?type=http\nhttp://spys.me/proxy.txt\nhttps://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/http.txt\nhttps://api.openproxylist.xyz/http.txt\nhttps://www.my-proxy.com/free-proxy-list.html\nhttps://raw.githubusercontent.com/shiftytr/proxy-list/master/proxy.txt\nhttps://www.my-proxy.com/free-anonymous-proxy.html\nhttps://www.my-proxy.com/free-transparent-proxy.html\nhttps://www.my-proxy.com/free-proxy-list-2.html\nhttps://www.my-proxy.com/free-proxy-list-3.html\nhttps://www.my-proxy.com/free-proxy-list-4.html\nhttps://proxy50-50.blogspot.com/\nhttps://www.my-proxy.com/free-proxy-list-5.html\nhttp://alexa.lr2b.com/proxylist.txt\nhttp://rootjazz.com/proxies/proxies.txt\nhttps://www.freeproxychecker.com/result/http_proxies.txt\nhttps://www.my-proxy.com/free-socks-4-proxy.html\nhttp://www.proxyserverlist24.top/feeds/posts/default\nhttps://www.my-proxy.com/free-proxy-list-6.html\nhttps://www.my-proxy.com/free-proxy-list-7.html\nhttps://www.my-proxy.com/free-proxy-list-8.html\nhttp://proxysearcher.sourceforge.net/Proxy%20List.php?type=http\nhttps://www.my-proxy.com/free-proxy-list-9.html\nhttps://www.my-proxy.com/free-proxy-list-10.html\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt\nhttps://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt\nhttps://raw.githubusercontent.com/sunny9577/proxy-scraper/master/proxies.txt\nhttps://raw.githubusercontent.com/UserR3X/proxy-list/main/online/http.txt\nhttps://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt\nhttps://raw.githubusercontent.com/opsxcq/proxy-list/master/list.txt\nhttps://proxy-spider.com/api/proxies.example.txt\nhttps://multiproxy.org/txt_all/proxy.txt\nhttp://rootjazz.com/proxies/proxies.txt\nhttps://raw.githubusercontent.com/clarketm/proxy\nhttp://k2ysarchive.xyz/proxy/http.txt\nhttps://proxyspace.pro/http.txt\nhttps://proxyspace.pro/https.txt\nhttps://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all\nhttps://www.proxy-list.download/api/v1/get?type=http&anon=elite&country=US\nhttps://raw.githubusercontent.com/shiftytr/proxy-list/master/proxy.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/https.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/socks5.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/socks4.txt\nhttps://hidemy.name/en/proxy-list/\nhttps://raw.githubusercontent.com/proxylist-to/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/proxylist-to/proxy-list/main/socks5.txt\nhttps://raw.githubusercontent.com/proxylist-to/proxy-list/main/socks4.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-https.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt\nhttps://api.proxyscrape.com/v2/?request=getproxies&protocol=http&timeout=10000&country=all\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-https.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-http.txt\nhttps://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt\nhttps://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt\nhttps://www.proxy-list.download/api/v1/get?type=http\nhttps://www.proxy-list.download/api/v1/get?type=https\nhttps://www.proxyscan.io/download?type=http\nhttps://www.proxyscan.io/download?type=https\nhttps://api.openproxylist.xyz/http.txt\nhttps://raw.githubusercontent.com/mmpx12/proxy-list/master/http.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt\nhttps://api.proxyscrape.com/v2/?request=getproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all\nhttps://raw.githubusercontent.com/proxy4parsing/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/HyperBeats/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies.txt\nhttps://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/proxy.txt\nhttp://hack-hack.chat.ru/proxy/allproxy.txt\nhttp://hack-hack.chat.ru/proxy/p1.txt\nhttp://hack-hack.chat.ru/proxy/p2.txt\nhttp://hack-hack.chat.ru/proxy/p3.txt\nhttp://inav.chat.ru/ftp/proxy.txt\nhttps://cyber-hub.pw/statics/proxy.txt\nhttps://raw.githubusercontent.com/saschazesiger/Free-Proxies/master/proxies/all.txt\nhttps://api.proxyscrape.com/v2/?request=getproxies&protocol=socks5&timeout=10000&country=all\nhttps://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS5_RAW.txt\nhttps://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks5.txt\nhttps://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt\nhttps://www.proxy-list.download/api/v1/get?type=socks5\nhttps://www.proxyscan.io/download?type=socks5\nhttps://api.openproxylist.xyz/socks5.txt\nhttps://raw.githubusercontent.com/mmpx12/proxy-list/master/socks5.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/socks5.txt\nhttps://raw.githubusercontent.com/manuGMG/proxy-365/main/SOCKS5.txt\nhttps://raw.githubusercontent.com/saschazesiger/Free-Proxies/master/proxies/socks5.txt\nhttps://raw.githubusercontent.com/HyperBeats/proxy-list/main/socks5.txtA\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks5.txt\n     https://eu1.proxysite.com/process.php?d=\n     https://eu2.proxysite.com/process.php?d=\n     https://eu3.proxysite.com/process.php?d=\n     https://eu4.proxysite.com/process.php?d=\n     https://eu5.proxysite.com/process.php?d=\n     https://eu6.proxysite.com/process.php?d=\n     https://eu7.proxysite.com/process.php?d=\n     https://eu8.proxysite.com/process.php?d=\n     https://eu9.proxysite.com/process.php?d=\n     https://eu10.proxysite.com/process.php?d=\n     https://us1.proxysite.com/process.php?d=\n     https://us2.proxysite.com/process.php?d=\n     https://us3.proxysite.com/process.php?d=\n     https://us4.proxysite.com/process.php?d=\n     https://us5.proxysite.com/process.php?d=\n     https://us6.proxysite.com/process.php?d=\n     https://us7.proxysite.com/process.php?d=\n     https://us8.proxysite.com/process.php?d=\n     https://us9.proxysite.com/process.php?d=\n     https://us10.proxysite.com/process.php?d=\n     https://us11.proxysite.com/process.php?d=\n     https://us12.proxysite.com/process.php?d=\n     https://us13.proxysite.com/process.php?d=\n     https://us14.proxysite.com/process.php?d=\n     https://us15.proxysite.com/process.php?d=\n     https://divine.graphics/proxy.php?\n     https://www.localizaip.com.br/localizar-ip.php?ip=\n    http://www.meuenderecoip.com/localizar-ip.php?ip=\n     https://website-down.com/\n    http://proxy.clgt.net/proxy.php/\n     https://www.pinterest.com/pin/create/button/?url=\n     https://www.reddit.com/login/?dest=\n     https://www.reddit.com/submit?url=\n     https://www.filterbypass.me/s.php?k=\n     https://www.filterbypass.me/?url=\n     https://quantrimang.com/url?q=\n     https://learnsql.xyz/chuyen-huong/?url=\n     https://user.gtarcade.com/site/login?rurl=\n    http://e9geolgzk6.com/iuqasfg3?dbqfdh=34&refer=\n     https://iplookup.flagfox.net/?host=\n     https://foradoar.org/\n     https://duckduckgo.com/\n     https://www.google.com/\n     https://www.youtube.com\n    http://www.google.com/?q=\n     https://www.responsinator.com/?url=\n     https://king.host/wiki/?url=\n     https://website.grader.com/results/\n     https://sitecheck.sucuri.net/results/\n     https://www.ssllabs.com/ssltest/analyze.html?d=\n     https://transparencyreport.google.com/safe-browsing/search?url=\n     https://www.webpagetest.org/?url=\n     https://www.hostinger.com.br/tutoriais/?url=\n     https://www.sslshopper.com/ssl-checker.html#hostname=\n     https://safeweb.norton.com/report/show?url=\n    http://www.usatoday.com/search/results?q=\n    http://engadget.search.aol.com/search?q=\n    http://validator.w3.org/check?uri=\n    http://www.facebook.com/sharer/sharer.php?u=\n    http://downforeveryoneorjustme.com/\n    http://network-tools.com/default.asp?prog=ping&host=\n    http://network-tools.com/default.asp?prog=trace&host=\n    http://network-tools.com/default.asp?prog=network&host=\n     https://domainr.com/?q=\n     https://down.is/\n    http://whois.domaintools.com/\n     https://downforeveryoneorjustme.com/\n     https://www.webhostinghero.com/#\n     https://www.whoishostingthis.com/#search=\n     https://ping.eu/port-chk/?url=\n     https://www.host-tracker.com/?url=\n    http://hostchecker.net/?url=\n     https://hostingchecker.com/?url=\n     https://www.virustotal.com/vi/?url=\n    http://tainhachay.mobi/?url=\n    http://globalproxies.blogspot.com/\nhttp://www.samair.ru/proxy/ip-address-15.htm\nhttp://www.cybersyndrome.net/plz.html\nhttp://aliveproxies.com/\nhttp://www.cybersyndrome.net/plr5.html\nhttp://biskutliat.blogspot.com/\nhttp://freeproxylist-daily.blogspot.com/2013/05/usa-proxy-list-2013-05-15-0111-am-gmt8.html\nhttp://proxylists.net/http_highanon.txt\nhttp://freeproxylist-daily.blogspot.com/2013/05/usa-proxy-list-2013-05-13-812-gmt7.html\nhttp://www.cybersyndrome.net/pla5.html\nhttp://vipprox.blogspot.com/2013_06_01_archive.html\nhttp://vipprox.blogspot.com/2013/05/us-proxy-servers-74_24.html\nhttp://vipprox.blogspot.com/p/blog-page_7.html\nhttp://vipprox.blogspot.com/2013/05/us-proxy-servers-199_20.html\nhttp://freeforall.ucoz.com/forum/16-13723-1\nhttp://vipprox.blogspot.com/2013_02_01_archive.html\nhttp://alexa.lr2b.com/proxylist.txt\nhttp://7proxy.blogspot.com/\nhttp://vipprox.blogspot.com/2013_03_01_archive.html\nhttp://browse.feedreader.com/c/Proxy_Server_List-1/449196260\nhttp://www.samair.ru/proxy/ip-address-09.htm\nhttp://browse.feedreader.com/c/Proxy_Server_List-1/449196258\nhttp://sock5us.blogspot.com/2013/06/01-07-13-free-proxy-server-list.html#comment-form\nhttp://www.samair.ru/proxy/proxy-13.htm\nhttp://browse.feedreader.com/c/Proxy_Server_List-1/449196251\nhttp://free-ssh.blogspot.com/feeds/posts/default\nhttp://www.samair.ru/proxy/proxy-18.htm\nhttp://www.samair.ru/proxy/proxy-15.htm\nhttp://browse.feedreader.com/c/Proxy_Server_List-1/449196259\nhttp://www.samair.ru/proxy/proxy-20.htm\nhttp://sockproxy.blogspot.com/\nhttp://free-ssh.blogspot.com/\nhttp://sock5us.blogspot.com/\nhttp://www.samair.ru/proxy/proxy-12.htm\nhttp://sockproxy.blogspot.com/2013/04/11-04-13-socks-45.html\nhttp://www.samair.ru/proxy/time-09.htm\nhttp://proxyfirenet.blogspot.com/\nhttp://globalproxies.blogspot.com/\nhttp://www.cybersyndrome.net/plz.html\nhttp://www.cybersyndrome.net/plr5.html\nhttp://biskutliat.blogspot.com/\nhttp://freeproxylist-daily.blogspot.com/2013/05/usa-proxy-list-2013-05-15-0111-am-gmt8.html\nhttp://freeproxylist-daily.blogspot.com/2013/05/usa-proxy-list-2013-05-13-812-gmt7.html\nhttp://www.cybersyndrome.net/pla5.html\nhttp://vipprox.blogspot.com/2013_06_01_archive.html\nhttp://vipprox.blogspot.com/2013/05/us-proxy-servers-74_24.html\nhttp://vipprox.blogspot.com/p/blog-page_7.html\nhttp://vipprox.blogspot.com/2013/05/us-proxy-servers-199_20.html\nhttp://vipprox.blogspot.com/2013_02_01_archive.html\nhttp://alexa.lr2b.com/proxylist.txt\nhttp://vipprox.blogspot.com/2013_03_01_archive.html\nhttp://browse.feedreader.com/c/Proxy_Server_List-1/449196260\nhttp://browse.feedreader.com/c/Proxy_Server_List-1/449196258\nhttp://sock5us.blogspot.com/2013/06/01-07-13-free-proxy-server-list.html#comment-form\nhttp://browse.feedreader.com/c/Proxy_Server_List-1/449196251\nhttp://free-ssh.blogspot.com/feeds/posts/default\nhttp://browse.feedreader.com/c/Proxy_Server_List-1/449196259\nhttp://sockproxy.blogspot.com/2013/04/11-04-13-socks-45.html\nhttp://proxyfirenet.blogspot.com/\nhttps://www.javatpoint.com/proxy-server-list\nhttps://openproxy.space/list/http\nhttp://proxydb.net/\nhttp://olaf4snow.com/public/proxy.txt\nhttp://westdollar.narod.ru/proxy.htm\nhttps://openproxy.space/list/socks4\nhttps://openproxy.space/list/socks5\nhttp://tomoney.narod.ru/help/proxi.htm\nhttp://sergei-m.narod.ru/proxy.htm\nhttp://rammstein.narod.ru/proxy.html\nhttp://greenrain.bos.ru/R_Stuff/Proxy.htm\nhttp://inav.chat.ru/ftp/proxy.txt\nhttp://johnstudio0.tripod.com/index1.htm\nhttp://atomintersoft.com/transparent_proxy_list\nhttp://atomintersoft.com/anonymous_proxy_list\nhttp://atomintersoft.com/high_anonymity_elite_proxy_list\nhttp://atomintersoft.com/products/alive-proxy/proxy-list/3128\nhttp://atomintersoft.com/products/alive-proxy/proxy-list/com\nhttp://atomintersoft.com/products/alive-proxy/proxy-list/high-anonymity/\nhttp://atomintersoft.com/products/alive-proxy/socks5-list\nhttp://atomintersoft.com/proxy_list_domain_com\nhttp://atomintersoft.com/proxy_list_domain_edu\nhttp://atomintersoft.com/proxy_list_domain_net\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt\nhttp://atomintersoft.com/proxy_list_domain_org\nhttp://atomintersoft.com/proxy_list_port_3128\nhttp://atomintersoft.com/proxy_list_port_80\nhttp://atomintersoft.com/proxy_list_port_8000\nhttp://atomintersoft.com/proxy_list_port_81\nhttp://hack-hack.chat.ru/proxy/allproxy.txt\nhttps://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt\nhttp://hack-hack.chat.ru/proxy/anon.txt\nhttp://hack-hack.chat.ru/proxy/p1.txt\nhttp://hack-hack.chat.ru/proxy/p2.txt\nhttp://hack-hack.chat.ru/proxy/p3.txt\nhttp://hack-hack.chat.ru/proxy/p4.txt\nhttps://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\nhttps://free-proxy-list.net/\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies.txt\nhttps://www.us-proxy.org/\nhttps://free-proxy-list.com/\nhttps://raw.githubusercontent.com/sunny9577/proxy-scraper/master/proxies.txt\nhttps://api.proxyscrape.com/?request=getproxies&proxytype=http&timeout=10000&country=all&ssl=all&anonymity=all\nhttps://api.proxyscrape.com/?request=getproxies&proxytype=socks4&timeout=10000&country=all\nhttps://api.proxyscrape.com/?request=getproxies&proxytype=socks5&timeout=10000&country=all\nhttps://spys.one/\nhttps://api.proxyscrape.com/?request=getproxies&proxytype=https&timeout=10000&country=all&ssl=all&anonymity=all\nhttps://api.proxyscrape.com/v2/?request=getproxies&protocol=socks4&timeout=10000&country=all\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/proxy.txt\nhttps://api.proxyscrape.com/v2/?request=getproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all\nhttps://api.proxyscrape.com/v2/?request=getproxies&protocol=socks5&timeout=10000&country=all\nhttps://free-proxy-list.net/\nhttp://www.freeproxylists.net/\nhttps://github.com/clarketm/proxy-list/blob/master/proxy-list-raw.txt\nhttps://spys.one/en/\nhttps://www.proxynova.com/proxy-server-list\nhttps://www.sslproxies.org/\nhttps://openproxy.space/list\nhttps://www.proxyscan.io/\nhttp://proxydb.net/\nhttps://advanced.name/freeproxy?ddexp4attempt=1\nhttp://nntime.com/\nhttps://www.duplichecker.com/free-proxy-list.php\nhttps://hidemy.name/en/proxy-list/\nhttps://scrapingant.com/free-proxies/\nhttps://www.proxynova.com/proxy-server-list/\nhttps://www.us-proxy.org/\nhttp://www.freeproxy.ru/en/free_proxy/get.htm\nhttps://www.proxyrack.com/free-proxy-list/\nhttps://www.coderduck.com/free-proxy-list\nhttps://proxyservers.pro/\nhttps://www.proxy-list.download/HTTP\nhttps://list.proxylistplus.com/Fresh-HTTP-Proxy-List-1\nhttps://www.hide-my-ip.com/proxylist.shtml\nhttps://proxyranker.com/\nhttps://proxyhttp.net/\nhttps://sockslist.net/\nhttp://proxy-list.org/german/index.php\nhttps://www.proxylist4all.com/\nhttps://proxypremium.top/download-proxy-list\nhttps://www.netzwelt.de/proxy/index.html\nhttp://www.proxyliste.com/\nhttps://www.proxy-listen.de/Proxy/Proxyliste.html\nhttps://smallseotools.com/es/free-proxy-list/\nhttps://list.proxylistplus.com/Fresh-HTTP-Proxy-List-1\nhttps://free-proxy-list.com/\nhttps://www.proxyranker.com/\nhttps://www.eleaks.to\nhttps://sockslist.net/proxy/server-socks-hide-ip-address/\nhttps://premiumproxy.net/distorting-proxy-list\nhttps://proxied.network/\nhttps://coolproxies.com/proxy-list.php\nhttps://www.freeproxy.world/\nhttps://proxies.gg/\nhttps://www.proxyrotator.com/free-proxy-list/\nhttp://proxy11.com/free-proxy\nhttp://aliveproxy.com/high-anonymity-proxy-list/\nhttps://multiproxy.org/all_proxy.htm\nhttp://www.multiproxy.org/anon_proxy.htm\nhttp://www.publicproxyservers.com/page1.html\nhttp://www.anonymitychecker.com/page1.html\nhttp://www.digitalcybersoft.com/ProxyList/fresh-proxy-list.shtml\nhttp://www.proxz.com/\nhttp://tools.rosinstrument.com/proxy/\nhttp://www.samair.ru/proxy/\nhttps://premiumproxy.net/\nhttps://hidemy.name/en/proxy-list/\nhttps://www.proxynova.com/proxy-server-list/\nhttps://premproxy.com/list/\nhttps://hidester.com/proxylist/\nhttps://openproxy.space/list\nhttp://proxydb.net/\nhttps://geonode.com/free-proxy-list\nhttps://www.proxy-list.download/HTTP\nhttps://spys.one/en/free-proxy-list/\nhttps://secure.echolink.org/proxylist.jsp\nhttp://0linh.blogspot.com/2009/11/free-proxy-20112009.html\nhttp://1000freeanonymousproxy.blogspot.com/2011/08/12-august-2011-fast-anonymous-proxy.html\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/socks4.txt\nhttps://api.proxyscrape.com/?request=displayproxies&timeout=10000\nhttp://proxyscrape.com/\nhttp://sslproxies24.blogspot.in/feeds/posts/default\nhttp://rootjazz.com/proxies/proxies.txt\nhttp://www.live-socks.net/feeds/posts/default\nhttp://www.httptunnel.ge/ProxyListForFree.aspx\nhttps://hidemy.name/en/proxy-list/\nhttps://free-proxy-list.net/\nhttps://www.proxynova.com/\nhttp://www.proxylists.net/\nhttp://www.freeproxylists.net/\nhttp://free-proxy.cz/en/\nhttp://spys.one/en/\nhttps://api.proxyscrape.com/v2/?request=getproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all\nhttps://openproxy.space/list/http\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt\nhttps://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt\nhttp://pubproxy.com/api/proxy\nhttps://www.juproxy.com/free_api\nhttps://api.openproxylist.xyz/http.txt\nhttps://raw.githubusercontent.com/hyperbeats/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-http.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-https.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-https.txt\nhttps://raw.githubusercontent.com/mmpx12/proxy-list/master/http.txt\nhttps://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt\nhttps://raw.githubusercontent.com/proxy4parsing/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/roosterkid/openproxylist/main/https_raw.txt\nhttps://raw.githubusercontent.com/shiftytr/proxy-list/master/http.txt\nhttps://raw.githubusercontent.com/thespeedx/proxy-list/master/http.txt\nhttps://www.proxy-list.download/api/v1/get?type=http\nhttps://www.proxy-list.download/api/v1/get?type=https\nhttps://www.proxyscan.io/download?type=http\nhttps://www.proxyscan.io/download?type=https\nhttps://openproxy.space/list/socks5\nhttps://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt\nhttps://api.openproxylist.xyz/socks5.txt\nhttps://api.proxyscrape.com/v2/?request=getproxies&protocol=socks5&timeout=10000&country=all\nhttps://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt\nhttps://raw.githubusercontent.com/hyperbeats/proxy-list/main/socks5.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks5.txt\nhttps://raw.githubusercontent.com/manugmg/proxy-365/main/socks5.txt\nhttps://raw.githubusercontent.com/mmpx12/proxy-list/master/socks5.txt\nhttps://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks5.txt\nhttps://raw.githubusercontent.com/roosterkid/openproxylist/main/socks5_raw.txt\nhttps://raw.githubusercontent.com/saschazesiger/free-proxies/master/proxies/socks5.txt\nhttps://raw.githubusercontent.com/shiftytr/proxy-list/master/socks5.txt\nhttps://raw.githubusercontent.com/thespeedx/proxy-list/master/socks5.txt\nhttps://www.proxy-list.download/api/v1/get?type=socks5\nhttps://www.proxyscan.io/download?type=socks5\nhttps://openproxy.space/list/socks4\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt\nhttps://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks4.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks4.txt\nhttps://www.socks-proxy.net/\nhttps://api.proxyscrape.com/v2/?request=getproxies&protocol=socks4&timeout=10000&country=all\nhttps://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS4_RAW.txt\nhttps://www.proxy-list.download/api/v1/get?type=socks4\nhttps://www.proxyscan.io/download?type=socks4\nhttps://api.openproxylist.xyz/socks4.txt\nhttps://raw.githubusercontent.com/mmpx12/proxy-list/master/socks4.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/socks4.txt\nhttps://raw.githubusercontent.com/UptimerBot/proxy-list/main/proxies/socks4.txt\nhttps://raw.githubusercontent.com/rdavydov/proxy-list/main/proxies/socks4.txt\nhttps://raw.githubusercontent.com/saschazesiger/Free-Proxies/master/proxies/socks4.txt\nhttps://raw.githubusercontent.com/HyperBeats/proxy-list/main/socks4.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/https.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/proxy.txt\nhttps://github.com/ShiftyTR/Proxy-List/raw/master/socks4.txt\nhttps://github.com/ShiftyTR/Proxy-List/raw/master/socks5.txt\nhttps://api.getproxylist.com/proxy\nhttps://api.getproxylist.com/proxy?lastTested=600\nhttps://api.getproxylist.com/proxy?port[]=80&port[]=8080\nhttps://api.getproxylist.com/proxy?anonymity[]=high%20anonymity&anonymity[]=transparent\nhttps://api.getproxylist.com/proxy?protocol[]=socks4&protocol[]=socks5\nhttps://api.getproxylist.com/proxy?allowsRefererHeader=1\nhttps://api.getproxylist.com/proxy?allowsUserAgentHeader=1\nhttps://api.getproxylist.com/proxy?allowsCustomHeaders=1\nhttps://api.getproxylist.com/proxy?allowsCookies=1\nhttps://api.getproxylist.com/proxy?allowsPost=1\nhttps://api.getproxylist.com/proxy?allowsHttps=1\nhttps://api.getproxylist.com/proxy?country[]=CA&country[]=US\nhttps://api.getproxylist.com/proxy?notCountry[]=CA&notCountry[]=US\nhttps://api.getproxylist.com/proxy?ip[]=31.202.117.137&ip[]=211.153.17.151\nhttps://api.getproxylist.com/proxy?all=1\nhttps://github.com/TheSpeedX/PROXY-List/raw/master/http.txt\nhttps://github.com/TheSpeedX/PROXY-List/raw/master/socks4.txt\nhttps://github.com/TheSpeedX/PROXY-List/raw/master/socks5.txt\nhttps://github.com/jetkai/proxy-list/raw/main/online-proxies/txt/proxies-http.txt\nhttps://github.com/jetkai/proxy-list/raw/main/online-proxies/txt/proxies-https.txt\nhttps://github.com/jetkai/proxy-list/raw/main/online-proxies/txt/proxies-socks4.txt\nhttps://github.com/jetkai/proxy-list/raw/main/online-proxies/txt/proxies-socks5.txt\nhttps://github.com/jetkai/proxy-list/raw/main/online-proxies/txt/proxies.txt\nhttps://github.com/monosans/proxy-list/raw/main/proxies/http.txt\nhttps://github.com/monosans/proxy-list/raw/main/proxies/socks4.txt\nhttps://github.com/monosans/proxy-list/raw/main/proxies/socks5.txt\nhttps://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt\nhttps://raw.githubusercontent.com/hookzof/socks5_list/master/tg/mtproto.json\nhttps://raw.githubusercontent.com/hookzof/socks5_list/master/tg/socks.json\nhttps://github.com/mmpx12/proxy-list/raw/master/http.txt\nhttps://github.com/mmpx12/proxy-list/raw/master/https.txt\nhttps://github.com/mmpx12/proxy-list/raw/master/proxies.txt\nhttps://github.com/mmpx12/proxy-list/raw/master/socks4.txt\nhttps://github.com/mmpx12/proxy-list/raw/master/socks5.txt\nhttps://github.com/UptimerBot/proxy-list/raw/main/proxies/http.txt\nhttps://github.com/UptimerBot/proxy-list/raw/main/proxies/socks4.txt\nhttps://github.com/UptimerBot/proxy-list/raw/main/proxies/socks5.txt\nhttps://github.com/zevtyardt/proxy-list/raw/main/all.txt\nhttps://github.com/roosterkid/openproxylist/raw/main/HTTPS_RAW.txt\nhttps://github.com/roosterkid/openproxylist/raw/main/SOCKS4_RAW.txt\nhttps://github.com/roosterkid/openproxylist/raw/main/SOCKS5_RAW.txt\nhttps://github.com/saschazesiger/Free-Proxies/raw/master/proxies/all.txt\nhttps://raw.githubusercontent.com/saschazesiger/Free-Proxies/master/proxies/raw.txt\nhttps://github.com/mertguvencli/http-proxy-list/raw/main/proxy-list/data.txt\nhttps://raw.githubusercontent.com/saisuiu/Lionkings-Http-Proxys-Proxies/main/cnfree.txt\nhttps://raw.githubusercontent.com/prxchk/proxy-list/main/http.txt \nhttps://raw.githubusercontent.com/prxchk/proxy-list/main/all.txt\nhttps://raw.githubusercontent.com/andigwandi/free-proxy/main/proxy_list.txt\n https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-https.txt\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt\n    https://api.proxyscrape.com/v2/?request=getproxies&protocol=http&timeout=500&country=all\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-https.txt\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-http.txt\n    https://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt\n    https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt\n    https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\n    https://www.proxy-list.download/api/v1/get?type=http\n    https://www.proxyscan.io/download?type=http\n    https://api.openproxylist.xyz/http.txt\n    https://github.com/mmpx12/proxy-list/raw/master/http.txt\nhttps://github.com/UptimerBot/proxy-list/raw/main/proxies/http.txt\nhttps://github.com/monosans/proxy-list/raw/main/proxies/http.txt\nhttps://github.com/jetkai/proxy-list/raw/main/online-proxies/txt/proxies-http.txt\nhttps://github.com/TheSpeedX/PROXY-List/raw/master/http.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt\nhttps://raw.githubusercontent.com/thespeedx/proxy-list/master/http.txt\nhttps://raw.githubusercontent.com/shiftytr/proxy-list/master/http.txt\nhttps://raw.githubusercontent.com/proxy4parsing/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt\nhttps://raw.githubusercontent.com/mmpx12/proxy-list/master/http.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt\nhttps://raw.githubusercontent.com/hyperbeats/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-http.txt\nhttps://api.openproxylist.xyz/http.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt\nhttps://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt\nhttps://raw.githubusercontent.com/HyperBeats/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/proxy4parsing/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt\nhttps://raw.githubusercontent.com/mmpx12/proxy-list/master/http.txt\nhttps://api.openproxylist.xyz/http.txt\nhttps://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-http.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt\nhttps://raw.githubusercontent.com/proxylist-to/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt\nhttps://proxyspace.pro/http.txt\nhttp://k2ysarchive.xyz/proxy/http.txt\nhttps://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\nhttps://api.openproxylist.xyz/http.txt\nhttps://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/http.txt\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\nhttps://api.openproxylist.xyz/http.txt\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\nhttps://raw.githubusercontent.com/Bardiafa/Proxy-Leecher/main/proxies.txt\nhttps://raw.githubusercontent.com/Bardiafa/Proxy-Leecher/main/good.txt\nhttps://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/http.txt\nhttps://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt\nhttps://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt\nhttps://raw.githubusercontent.com/ALIILAPRO/Proxy/main/http.txt\nhttps://raw.githubusercontent.com/yemixzy/proxy-list/main/proxies/http.txt\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\nhttps://raw.githubusercontent.com/yoannchb-pro/https-proxies/main/proxies.txt\nhttps://raw.githubusercontent.com/UptimerBot/proxy-list/master/proxies/http.txt\nhttps://raw.githubusercontent.com/UptimerBot/proxy-list/master/proxies/http.txt\nhttps://raw.githubusercontent.com/UptimerBot/proxy-list/master/proxies/http.txt\nhttps://raw.githubusercontent.com/andigwandi/free-proxy/main/proxy_list.txt\nhttps://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/http/http.txt\nhttps://raw.githubusercontent.com/proxy4parsing/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt\nhttps://raw.githubusercontent.com/sunny9577/proxy-scraper/master/proxies.txt\nhttps://raw.githubusercontent.com/caliphdev/Proxy-List/master/http.txt\nhttps://raw.githubusercontent.com/zevtyardt/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/fahimscirex/proxybd/master/anonymous-proxylist/http.txt\nhttps://raw.githubusercontent.com/ToShukKr/rProxyList/main/proxy-list.txt\nhttps://raw.githubusercontent.com/prxchk/proxy-list/main/http.txt\n'
+        '\nhttps://tcplegitxnight.store/socks4.txt\nhttps://tcplegitxnight.store/socks5.txt\nhttps://raw.githubusercontent.com/MuRongPIG/Proxy-Master/main/socks5.txt\nhttps://raw.githubusercontent.com/MuRongPIG/Proxy-Master/main/socks4.txt\nhttps://api.proxyscrape.com/?request=displayproxies&proxytype=socks4&country=all\nhttps://api.proxyscrape.com/?request=displayproxies&proxytype=socks5&country=all\n    http://proxysearcher.sourceforge.net/Proxy%20List.php?type=socks\n    https://api.proxyscrape.com/v2/?request=getproxies&protocol=socks4\n    https://openproxy.space/list/socks4\n    https://openproxylist.xyz/socks4.txt\n    https://raw.githubusercontent.com/B4RC0DE-TM/proxy-list/main/SOCKS4.txt\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks4.txt\n    https://raw.githubusercontent.com/mmpx12/proxy-list/master/socks4.txt\n    https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS4_RAW.txt\n    https://raw.githubusercontent.com/saschazesiger/Free-Proxies/master/proxies/socks4.txt\n    https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/socks4.txt\n    https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt\n    https://www.freeproxychecker.com/result/socks4_proxies.txt\n    https://www.proxy-list.download/api/v1/get?type=socks4\n    https://www.proxyscan.io/download?type=socks4\n    http://proxysearcher.sourceforge.net/Proxy%20List.php?type=socks\n    https://api.proxyscrape.com/v2/?request=getproxies&protocol=socks5\n    https://openproxy.space/list/socks5\n    https://openproxylist.xyz/socks5.txt\n    https://raw.githubusercontent.com/B4RC0DE-TM/proxy-list/main/SOCKS5.txt\n    https://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks5.txt\n    https://raw.githubusercontent.com/manuGMG/proxy-365/main/SOCKS5.txt\n    https://raw.githubusercontent.com/mmpx12/proxy-list/master/socks5.txt\n    https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS5_RAW.txt\n    https://raw.githubusercontent.com/saschazesiger/Free-Proxies/master/proxies/socks5.txt\n    https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/socks5.txt\n    https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt\n    https://www.freeproxychecker.com/result/socks5_proxies.txt\n    https://www.proxy-list.download/api/v1/get?type=socks5\n    https://www.proxyscan.io/download?type=socks5\nhttps://openproxy.space/list/http\nhttps://openproxy.space/list/socks4\nhttps://openproxy.space/list/socks5\nhttps://free-proxy-list.net\nhttps://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers/\nhttp://proxydb.net/?protocol=http\nhttp://proxydb.net/?protocol=https\nhttp://proxydb.net/?protocol=socks4\nhttp://proxydb.net/?protocol=socks5\nhttps://www.us-proxy.org/\nhttps://premiumproxy.net/\nhttps://www.netzwelt.de/proxy/index.html\nhttps://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all\nhttps://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=10000&country=all\nhttps://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks5&timeout=10000&country=all\nhttps://www.proxy-list.download/HTTP\nhttps://www.proxy-list.download/HTTPS\nhttps://www.proxy-list.download/SOCKS4\nhttps://www.proxy-list.download/SOCKS5\nhttps://www.freeproxy.world/\nhttps://free-proxy-list.net/\nhttps://smallseotools.com/de/free-proxy-list/\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks5.txt\n    https://api.proxyscrape.com/v2/?request=getproxies&protocol=socks5&timeout=10000&country=all\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-socks5.txt\n    https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS5_RAW.txt\n    https://github.com/jetkai/proxy-list/blob/main/archive/txt/proxies-socks5.txt\n    https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks5.txt\n    https://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt\n    https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt\n    https://www.proxy-list.download/api/v1/get?type=socks5\n    https://www.proxyscan.io/download?type=socks5\n    https://api.openproxylist.xyz/socks5.txt\n        https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks4.txt\n    https://api.proxyscrape.com/v2/?request=getproxies&protocol=socks4&timeout=10000&country=all\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-socks4.txt\n    https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS4_RAW.txt\n    https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks4.txt\n    https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt\n    https://www.proxy-list.download/api/v1/get?type=socks4\n    https://www.proxyscan.io/download?type=socks4\n    https://api.openproxylist.xyz/socks4.txt\n'
+        '\x1b[1;36m/-/ > \x1b[1;37m──────────────────────────────────────────────'
+        '\n                 \x1b[1;35mSCAN \x1b[1;34mPROXYS \x1b[1;31mSOCKS \x1b[1;37m- \x1b[1;32mHTTP \x1b[1;33mBY \x1b[1;36mHUYKAISER\x1b[0m\n                 _        _______ _________ _______  _______  _______ \n|\\     /|       | \\    /\\(  ___  )\\__   __/(  ____ \\(  ____ \\(  ____ )\n| )   ( |       |  \\  / /| (   ) |   ) (   | (    \\/| (    \\/| (    )|\n| (___) | _____ |  (_/ / | (___) |   | |   | (_____ | (__    | (____)|\n|  ___  |(_____)|   _ (  |  ___  |   | |   (_____  )|  __)   |     __)\n| (   ) |       |  ( \\ \\ | (   ) |   | |         ) || (      | (\\ (   \n| )   ( |       |  /  \\ \\| )   ( |___) (___/\\____) || (____/\\| ) \\ \\__\n|/     \\|       |_/    \\/|/     \\|\\_______/\\_______)(_______/|/   \\__/\n                                                                      \n'
+        '\x1b[1;31m-> Lưu Ý Nhỏ'
+        '\x1b[1;36m/-/ > \x1b[0mMuốn Nhập Đơn Giản Nhất Thì HTTP Nhập http.txt Còn SOCKS Nhập socks.txt'
+        '\x1b[1;36m/-/ > \x1b[0mTool Scan Proxys Max Speed Ngon Nhất Bản V4 Thanks\x1b[0m'
+        '\x1b[1;36m/-/ > \x1b[0mNhập File Lưu Proxys HTTP Vô: \x1b[1;36m'
+        '\x1b[1;36m/-/ > \x1b[0mNhập File Lưu Proxys SOCK Vô: \x1b[1;36m'
+        'w'
+        [Code]
+            File Name: <x>
+            Object Name: huykaiser_one
+            Qualified Name: huykaiser_one
+            Arg Count: 1
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Stack Size: 6
+            Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+            [Names]
+                're'
+                'findall'
+                'huykaiser_two'
+                'file_http'
+                'write'
+                'str'
+                'good_proxies_http'
+                'append'
+            [Locals+Names]
+                'url'
+                'ip_port'
+                'i'
+            [Constants]
+                None
+                '(\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}:\\d{2,5})'
+                '\n'
+            [Disassembly]
+                0       RESUME                        0
+                2       LOAD_GLOBAL                   1: NULL + re
+                14      LOAD_ATTR                     1: findall
+                24      LOAD_CONST                    1: '(\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}:\\d{2,5})'
+                26      LOAD_FAST                     0: url
+                28      PRECALL                       2
+                32      CALL                          2
+                42      STORE_FAST                    1: ip_port
+                44      LOAD_FAST                     1: ip_port
+                46      POP_JUMP_FORWARD_IF_TRUE      17
+                48      LOAD_GLOBAL                   5: NULL + huykaiser_two
+                60      LOAD_FAST                     0: url
+                62      PRECALL                       1
+                66      CALL                          1
+                76      POP_TOP                       
+                78      LOAD_CONST                    0: None
+                80      RETURN_VALUE                  
+                82      LOAD_FAST                     1: ip_port
+                84      GET_ITER                      
+                86      FOR_ITER                      70 (to 228)
+                88      STORE_FAST                    2: i
+                90      LOAD_GLOBAL                   6: file_http
+                102     LOAD_METHOD                   4: write
+                124     LOAD_GLOBAL                   11: NULL + str
+                136     LOAD_FAST                     2: i
+                138     PRECALL                       1
+                142     CALL                          1
+                152     LOAD_CONST                    2: '\n'
+                154     BINARY_OP                     0 (+)
+                158     PRECALL                       1
+                162     CALL                          1
+                172     POP_TOP                       
+                174     LOAD_GLOBAL                   12: good_proxies_http
+                186     LOAD_METHOD                   7: append
+                208     LOAD_FAST                     2: i
+                210     PRECALL                       1
+                214     CALL                          1
+                224     POP_TOP                       
+                226     JUMP_BACKWARD                 71
+                228     LOAD_CONST                    0: None
+                230     RETURN_VALUE                  
+        [Code]
+            File Name: <x>
+            Object Name: huykaiser_two
+            Qualified Name: huykaiser_two
+            Arg Count: 1
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Stack Size: 8
+            Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+            [Names]
+                're'
+                'findall'
+                'huykaiser_three'
+                'range'
+                'len'
+                'file_http'
+                'write'
+                'str'
+                'good_proxies_http'
+                'append'
+            [Locals+Names]
+                'url'
+                'ip'
+                'port'
+                'i'
+            [Constants]
+                None
+                '>(?:\\d{1,3}\\.){3}\\d{1,3}<'
+                'td>(\\d{2,5})<'
+                1
+                -1
+                ':'
+                '\n'
+            [Disassembly]
+                0       RESUME                        0
+                2       LOAD_GLOBAL                   1: NULL + re
+                14      LOAD_ATTR                     1: findall
+                24      LOAD_CONST                    1: '>(?:\\d{1,3}\\.){3}\\d{1,3}<'
+                26      LOAD_FAST                     0: url
+                28      PRECALL                       2
+                32      CALL                          2
+                42      STORE_FAST                    1: ip
+                44      LOAD_GLOBAL                   1: NULL + re
+                56      LOAD_ATTR                     1: findall
+                66      LOAD_CONST                    2: 'td>(\\d{2,5})<'
+                68      LOAD_FAST                     0: url
+                70      PRECALL                       2
+                74      CALL                          2
+                84      STORE_FAST                    2: port
+                86      LOAD_FAST                     1: ip
+                88      POP_JUMP_FORWARD_IF_FALSE     2
+                90      LOAD_FAST                     2: port
+                92      POP_JUMP_FORWARD_IF_TRUE      17
+                94      LOAD_GLOBAL                   5: NULL + huykaiser_three
+                106     LOAD_FAST                     0: url
+                108     PRECALL                       1
+                112     CALL                          1
+                122     POP_TOP                       
+                124     LOAD_CONST                    0: None
+                126     RETURN_VALUE                  
+                128     LOAD_GLOBAL                   7: NULL + range
+                140     LOAD_GLOBAL                   9: NULL + len
+                152     LOAD_FAST                     1: ip
+                154     PRECALL                       1
+                158     CALL                          1
+                168     PRECALL                       1
+                172     CALL                          1
+                182     GET_ITER                      
+                184     FOR_ITER                      161 (to 508)
+                186     STORE_FAST                    3: i
+                188     LOAD_GLOBAL                   10: file_http
+                200     LOAD_METHOD                   6: write
+                222     LOAD_GLOBAL                   15: NULL + str
+                234     LOAD_FAST                     1: ip
+                236     LOAD_FAST                     3: i
+                238     BINARY_SUBSCR                 
+                248     PRECALL                       1
+                252     CALL                          1
+                262     LOAD_CONST                    3: 1
+                264     LOAD_CONST                    4: -1
+                266     BUILD_SLICE                   2
+                268     BINARY_SUBSCR                 
+                278     LOAD_CONST                    5: ':'
+                280     BINARY_OP                     0 (+)
+                284     LOAD_GLOBAL                   15: NULL + str
+                296     LOAD_FAST                     2: port
+                298     LOAD_FAST                     3: i
+                300     BINARY_SUBSCR                 
+                310     PRECALL                       1
+                314     CALL                          1
+                324     BINARY_OP                     0 (+)
+                328     LOAD_CONST                    6: '\n'
+                330     BINARY_OP                     0 (+)
+                334     PRECALL                       1
+                338     CALL                          1
+                348     POP_TOP                       
+                350     LOAD_GLOBAL                   16: good_proxies_http
+                362     LOAD_METHOD                   9: append
+                384     LOAD_GLOBAL                   15: NULL + str
+                396     LOAD_FAST                     1: ip
+                398     LOAD_FAST                     3: i
+                400     BINARY_SUBSCR                 
+                410     PRECALL                       1
+                414     CALL                          1
+                424     LOAD_CONST                    3: 1
+                426     LOAD_CONST                    4: -1
+                428     BUILD_SLICE                   2
+                430     BINARY_SUBSCR                 
+                440     LOAD_CONST                    5: ':'
+                442     BINARY_OP                     0 (+)
+                446     LOAD_GLOBAL                   15: NULL + str
+                458     LOAD_FAST                     2: port
+                460     LOAD_FAST                     3: i
+                462     BINARY_SUBSCR                 
+                472     PRECALL                       1
+                476     CALL                          1
+                486     BINARY_OP                     0 (+)
+                490     PRECALL                       1
+                494     CALL                          1
+                504     POP_TOP                       
+                506     JUMP_BACKWARD                 162
+                508     LOAD_CONST                    0: None
+                510     RETURN_VALUE                  
+        [Code]
+            File Name: <x>
+            Object Name: huykaiser_three
+            Qualified Name: huykaiser_three
+            Arg Count: 1
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Stack Size: 8
+            Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+            [Names]
+                're'
+                'findall'
+                'huykaiser_four'
+                'range'
+                'len'
+                'file_http'
+                'write'
+                'str'
+                'good_proxies_http'
+                'append'
+            [Locals+Names]
+                'url'
+                'ip'
+                'port'
+                'i'
+            [Constants]
+                None
+                '>\\s+(\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3})'
+                '>\\s+(\\d{2,5})\\n'
+                ':'
+                '\n'
+            [Disassembly]
+                0       RESUME                        0
+                2       LOAD_GLOBAL                   1: NULL + re
+                14      LOAD_ATTR                     1: findall
+                24      LOAD_CONST                    1: '>\\s+(\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3})'
+                26      LOAD_FAST                     0: url
+                28      PRECALL                       2
+                32      CALL                          2
+                42      STORE_FAST                    1: ip
+                44      LOAD_GLOBAL                   1: NULL + re
+                56      LOAD_ATTR                     1: findall
+                66      LOAD_CONST                    2: '>\\s+(\\d{2,5})\\n'
+                68      LOAD_FAST                     0: url
+                70      PRECALL                       2
+                74      CALL                          2
+                84      STORE_FAST                    2: port
+                86      LOAD_FAST                     1: ip
+                88      POP_JUMP_FORWARD_IF_FALSE     2
+                90      LOAD_FAST                     2: port
+                92      POP_JUMP_FORWARD_IF_TRUE      17
+                94      LOAD_GLOBAL                   5: NULL + huykaiser_four
+                106     LOAD_FAST                     0: url
+                108     PRECALL                       1
+                112     CALL                          1
+                122     POP_TOP                       
+                124     LOAD_CONST                    0: None
+                126     RETURN_VALUE                  
+                128     LOAD_GLOBAL                   7: NULL + range
+                140     LOAD_GLOBAL                   9: NULL + len
+                152     LOAD_FAST                     1: ip
+                154     PRECALL                       1
+                158     CALL                          1
+                168     PRECALL                       1
+                172     CALL                          1
+                182     GET_ITER                      
+                184     FOR_ITER                      145 (to 476)
+                186     STORE_FAST                    3: i
+                188     LOAD_GLOBAL                   10: file_http
+                200     LOAD_METHOD                   6: write
+                222     LOAD_GLOBAL                   15: NULL + str
+                234     LOAD_FAST                     1: ip
+                236     LOAD_FAST                     3: i
+                238     BINARY_SUBSCR                 
+                248     PRECALL                       1
+                252     CALL                          1
+                262     LOAD_CONST                    3: ':'
+                264     BINARY_OP                     0 (+)
+                268     LOAD_GLOBAL                   15: NULL + str
+                280     LOAD_FAST                     2: port
+                282     LOAD_FAST                     3: i
+                284     BINARY_SUBSCR                 
+                294     PRECALL                       1
+                298     CALL                          1
+                308     BINARY_OP                     0 (+)
+                312     LOAD_CONST                    4: '\n'
+                314     BINARY_OP                     0 (+)
+                318     PRECALL                       1
+                322     CALL                          1
+                332     POP_TOP                       
+                334     LOAD_GLOBAL                   16: good_proxies_http
+                346     LOAD_METHOD                   9: append
+                368     LOAD_GLOBAL                   15: NULL + str
+                380     LOAD_FAST                     1: ip
+                382     LOAD_FAST                     3: i
+                384     BINARY_SUBSCR                 
+                394     PRECALL                       1
+                398     CALL                          1
+                408     LOAD_CONST                    3: ':'
+                410     BINARY_OP                     0 (+)
+                414     LOAD_GLOBAL                   15: NULL + str
+                426     LOAD_FAST                     2: port
+                428     LOAD_FAST                     3: i
+                430     BINARY_SUBSCR                 
+                440     PRECALL                       1
+                444     CALL                          1
+                454     BINARY_OP                     0 (+)
+                458     PRECALL                       1
+                462     CALL                          1
+                472     POP_TOP                       
+                474     JUMP_BACKWARD                 146
+                476     LOAD_CONST                    0: None
+                478     RETURN_VALUE                  
+        [Code]
+            File Name: <x>
+            Object Name: huykaiser_four
+            Qualified Name: huykaiser_four
+            Arg Count: 1
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Stack Size: 8
+            Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+            [Names]
+                're'
+                'findall'
+                'huykaiser_five'
+                'range'
+                'len'
+                'file_http'
+                'write'
+                'str'
+                'good_proxies_http'
+                'append'
+            [Locals+Names]
+                'url'
+                'ip'
+                'port'
+                'i'
+            [Constants]
+                None
+                '>(?:\\d{1,3}\\.){3}\\d{1,3}<'
+                '>(?:\\d{2,5})<'
+                1
+                -1
+                ':'
+                '\n'
+            [Disassembly]
+                0       RESUME                        0
+                2       LOAD_GLOBAL                   1: NULL + re
+                14      LOAD_ATTR                     1: findall
+                24      LOAD_CONST                    1: '>(?:\\d{1,3}\\.){3}\\d{1,3}<'
+                26      LOAD_FAST                     0: url
+                28      PRECALL                       2
+                32      CALL                          2
+                42      STORE_FAST                    1: ip
+                44      LOAD_GLOBAL                   1: NULL + re
+                56      LOAD_ATTR                     1: findall
+                66      LOAD_CONST                    2: '>(?:\\d{2,5})<'
+                68      LOAD_FAST                     0: url
+                70      PRECALL                       2
+                74      CALL                          2
+                84      STORE_FAST                    2: port
+                86      LOAD_FAST                     1: ip
+                88      POP_JUMP_FORWARD_IF_FALSE     2
+                90      LOAD_FAST                     2: port
+                92      POP_JUMP_FORWARD_IF_TRUE      17
+                94      LOAD_GLOBAL                   5: NULL + huykaiser_five
+                106     LOAD_FAST                     0: url
+                108     PRECALL                       1
+                112     CALL                          1
+                122     POP_TOP                       
+                124     LOAD_CONST                    0: None
+                126     RETURN_VALUE                  
+                128     LOAD_GLOBAL                   7: NULL + range
+                140     LOAD_GLOBAL                   9: NULL + len
+                152     LOAD_FAST                     1: ip
+                154     PRECALL                       1
+                158     CALL                          1
+                168     PRECALL                       1
+                172     CALL                          1
+                182     GET_ITER                      
+                184     FOR_ITER                      177 (to 540)
+                186     STORE_FAST                    3: i
+                188     LOAD_GLOBAL                   10: file_http
+                200     LOAD_METHOD                   6: write
+                222     LOAD_GLOBAL                   15: NULL + str
+                234     LOAD_FAST                     1: ip
+                236     LOAD_FAST                     3: i
+                238     BINARY_SUBSCR                 
+                248     PRECALL                       1
+                252     CALL                          1
+                262     LOAD_CONST                    3: 1
+                264     LOAD_CONST                    4: -1
+                266     BUILD_SLICE                   2
+                268     BINARY_SUBSCR                 
+                278     LOAD_CONST                    5: ':'
+                280     BINARY_OP                     0 (+)
+                284     LOAD_GLOBAL                   15: NULL + str
+                296     LOAD_FAST                     2: port
+                298     LOAD_FAST                     3: i
+                300     BINARY_SUBSCR                 
+                310     PRECALL                       1
+                314     CALL                          1
+                324     LOAD_CONST                    3: 1
+                326     LOAD_CONST                    4: -1
+                328     BUILD_SLICE                   2
+                330     BINARY_SUBSCR                 
+                340     BINARY_OP                     0 (+)
+                344     LOAD_CONST                    6: '\n'
+                346     BINARY_OP                     0 (+)
+                350     PRECALL                       1
+                354     CALL                          1
+                364     POP_TOP                       
+                366     LOAD_GLOBAL                   16: good_proxies_http
+                378     LOAD_METHOD                   9: append
+                400     LOAD_GLOBAL                   15: NULL + str
+                412     LOAD_FAST                     1: ip
+                414     LOAD_FAST                     3: i
+                416     BINARY_SUBSCR                 
+                426     PRECALL                       1
+                430     CALL                          1
+                440     LOAD_CONST                    3: 1
+                442     LOAD_CONST                    4: -1
+                444     BUILD_SLICE                   2
+                446     BINARY_SUBSCR                 
+                456     LOAD_CONST                    5: ':'
+                458     BINARY_OP                     0 (+)
+                462     LOAD_GLOBAL                   15: NULL + str
+                474     LOAD_FAST                     2: port
+                476     LOAD_FAST                     3: i
+                478     BINARY_SUBSCR                 
+                488     PRECALL                       1
+                492     CALL                          1
+                502     LOAD_CONST                    3: 1
+                504     LOAD_CONST                    4: -1
+                506     BUILD_SLICE                   2
+                508     BINARY_SUBSCR                 
+                518     BINARY_OP                     0 (+)
+                522     PRECALL                       1
+                526     CALL                          1
+                536     POP_TOP                       
+                538     JUMP_BACKWARD                 178
+                540     LOAD_CONST                    0: None
+                542     RETURN_VALUE                  
+        [Code]
+            File Name: <x>
+            Object Name: huykaiser_five
+            Qualified Name: huykaiser_five
+            Arg Count: 1
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Stack Size: 8
+            Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+            [Names]
+                're'
+                'findall'
+                'range'
+                'len'
+                'file_http'
+                'write'
+                'str'
+                'good_proxies_http'
+                'append'
+            [Locals+Names]
+                'url'
+                'ip'
+                'port'
+                'i'
+            [Constants]
+                None
+                '(\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3})'
+                '(\\d{2,5})'
+                ':'
+                '\n'
+            [Disassembly]
+                0       RESUME                        0
+                2       LOAD_GLOBAL                   1: NULL + re
+                14      LOAD_ATTR                     1: findall
+                24      LOAD_CONST                    1: '(\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3})'
+                26      LOAD_FAST                     0: url
+                28      PRECALL                       2
+                32      CALL                          2
+                42      STORE_FAST                    1: ip
+                44      LOAD_GLOBAL                   1: NULL + re
+                56      LOAD_ATTR                     1: findall
+                66      LOAD_CONST                    2: '(\\d{2,5})'
+                68      LOAD_FAST                     0: url
+                70      PRECALL                       2
+                74      CALL                          2
+                84      STORE_FAST                    2: port
+                86      LOAD_GLOBAL                   5: NULL + range
+                98      LOAD_GLOBAL                   7: NULL + len
+                110     LOAD_FAST                     1: ip
+                112     PRECALL                       1
+                116     CALL                          1
+                126     PRECALL                       1
+                130     CALL                          1
+                140     GET_ITER                      
+                142     FOR_ITER                      145 (to 434)
+                144     STORE_FAST                    3: i
+                146     LOAD_GLOBAL                   8: file_http
+                158     LOAD_METHOD                   5: write
+                180     LOAD_GLOBAL                   13: NULL + str
+                192     LOAD_FAST                     1: ip
+                194     LOAD_FAST                     3: i
+                196     BINARY_SUBSCR                 
+                206     PRECALL                       1
+                210     CALL                          1
+                220     LOAD_CONST                    3: ':'
+                222     BINARY_OP                     0 (+)
+                226     LOAD_GLOBAL                   13: NULL + str
+                238     LOAD_FAST                     2: port
+                240     LOAD_FAST                     3: i
+                242     BINARY_SUBSCR                 
+                252     PRECALL                       1
+                256     CALL                          1
+                266     BINARY_OP                     0 (+)
+                270     LOAD_CONST                    4: '\n'
+                272     BINARY_OP                     0 (+)
+                276     PRECALL                       1
+                280     CALL                          1
+                290     POP_TOP                       
+                292     LOAD_GLOBAL                   14: good_proxies_http
+                304     LOAD_METHOD                   8: append
+                326     LOAD_GLOBAL                   13: NULL + str
+                338     LOAD_FAST                     1: ip
+                340     LOAD_FAST                     3: i
+                342     BINARY_SUBSCR                 
+                352     PRECALL                       1
+                356     CALL                          1
+                366     LOAD_CONST                    3: ':'
+                368     BINARY_OP                     0 (+)
+                372     LOAD_GLOBAL                   13: NULL + str
+                384     LOAD_FAST                     2: port
+                386     LOAD_FAST                     3: i
+                388     BINARY_SUBSCR                 
+                398     PRECALL                       1
+                402     CALL                          1
+                412     BINARY_OP                     0 (+)
+                416     PRECALL                       1
+                420     CALL                          1
+                430     POP_TOP                       
+                432     JUMP_BACKWARD                 146
+                434     LOAD_CONST                    0: None
+                436     RETURN_VALUE                  
+        [Code]
+            File Name: <x>
+            Object Name: huykaiser_six
+            Qualified Name: huykaiser_six
+            Arg Count: 1
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Stack Size: 6
+            Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+            [Names]
+                're'
+                'findall'
+                'huykaiser_seven'
+                'file_sock'
+                'write'
+                'str'
+                'good_proxies_sock'
+                'append'
+            [Locals+Names]
+                'url'
+                'ip_port'
+                'i'
+            [Constants]
+                None
+                '(\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}:\\d{2,5})'
+                '\n'
+            [Disassembly]
+                0       RESUME                        0
+                2       LOAD_GLOBAL                   1: NULL + re
+                14      LOAD_ATTR                     1: findall
+                24      LOAD_CONST                    1: '(\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}:\\d{2,5})'
+                26      LOAD_FAST                     0: url
+                28      PRECALL                       2
+                32      CALL                          2
+                42      STORE_FAST                    1: ip_port
+                44      LOAD_FAST                     1: ip_port
+                46      POP_JUMP_FORWARD_IF_TRUE      17
+                48      LOAD_GLOBAL                   5: NULL + huykaiser_seven
+                60      LOAD_FAST                     0: url
+                62      PRECALL                       1
+                66      CALL                          1
+                76      POP_TOP                       
+                78      LOAD_CONST                    0: None
+                80      RETURN_VALUE                  
+                82      LOAD_FAST                     1: ip_port
+                84      GET_ITER                      
+                86      FOR_ITER                      70 (to 228)
+                88      STORE_FAST                    2: i
+                90      LOAD_GLOBAL                   6: file_sock
+                102     LOAD_METHOD                   4: write
+                124     LOAD_GLOBAL                   11: NULL + str
+                136     LOAD_FAST                     2: i
+                138     PRECALL                       1
+                142     CALL                          1
+                152     LOAD_CONST                    2: '\n'
+                154     BINARY_OP                     0 (+)
+                158     PRECALL                       1
+                162     CALL                          1
+                172     POP_TOP                       
+                174     LOAD_GLOBAL                   12: good_proxies_sock
+                186     LOAD_METHOD                   7: append
+                208     LOAD_FAST                     2: i
+                210     PRECALL                       1
+                214     CALL                          1
+                224     POP_TOP                       
+                226     JUMP_BACKWARD                 71
+                228     LOAD_CONST                    0: None
+                230     RETURN_VALUE                  
+        [Code]
+            File Name: <x>
+            Object Name: huykaiser_seven
+            Qualified Name: huykaiser_seven
+            Arg Count: 1
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Stack Size: 8
+            Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+            [Names]
+                're'
+                'findall'
+                'huykaiser_eight'
+                'range'
+                'len'
+                'file_sock'
+                'write'
+                'str'
+                'good_proxies_sock'
+                'append'
+            [Locals+Names]
+                'url'
+                'ip'
+                'port'
+                'i'
+            [Constants]
+                None
+                '>(?:\\d{1,3}\\.){3}\\d{1,3}<'
+                'td>(\\d{2,5})<'
+                1
+                -1
+                ':'
+                '\n'
+            [Disassembly]
+                0       RESUME                        0
+                2       LOAD_GLOBAL                   1: NULL + re
+                14      LOAD_ATTR                     1: findall
+                24      LOAD_CONST                    1: '>(?:\\d{1,3}\\.){3}\\d{1,3}<'
+                26      LOAD_FAST                     0: url
+                28      PRECALL                       2
+                32      CALL                          2
+                42      STORE_FAST                    1: ip
+                44      LOAD_GLOBAL                   1: NULL + re
+                56      LOAD_ATTR                     1: findall
+                66      LOAD_CONST                    2: 'td>(\\d{2,5})<'
+                68      LOAD_FAST                     0: url
+                70      PRECALL                       2
+                74      CALL                          2
+                84      STORE_FAST                    2: port
+                86      LOAD_FAST                     1: ip
+                88      POP_JUMP_FORWARD_IF_FALSE     2
+                90      LOAD_FAST                     2: port
+                92      POP_JUMP_FORWARD_IF_TRUE      17
+                94      LOAD_GLOBAL                   5: NULL + huykaiser_eight
+                106     LOAD_FAST                     0: url
+                108     PRECALL                       1
+                112     CALL                          1
+                122     POP_TOP                       
+                124     LOAD_CONST                    0: None
+                126     RETURN_VALUE                  
+                128     LOAD_GLOBAL                   7: NULL + range
+                140     LOAD_GLOBAL                   9: NULL + len
+                152     LOAD_FAST                     1: ip
+                154     PRECALL                       1
+                158     CALL                          1
+                168     PRECALL                       1
+                172     CALL                          1
+                182     GET_ITER                      
+                184     FOR_ITER                      161 (to 508)
+                186     STORE_FAST                    3: i
+                188     LOAD_GLOBAL                   10: file_sock
+                200     LOAD_METHOD                   6: write
+                222     LOAD_GLOBAL                   15: NULL + str
+                234     LOAD_FAST                     1: ip
+                236     LOAD_FAST                     3: i
+                238     BINARY_SUBSCR                 
+                248     PRECALL                       1
+                252     CALL                          1
+                262     LOAD_CONST                    3: 1
+                264     LOAD_CONST                    4: -1
+                266     BUILD_SLICE                   2
+                268     BINARY_SUBSCR                 
+                278     LOAD_CONST                    5: ':'
+                280     BINARY_OP                     0 (+)
+                284     LOAD_GLOBAL                   15: NULL + str
+                296     LOAD_FAST                     2: port
+                298     LOAD_FAST                     3: i
+                300     BINARY_SUBSCR                 
+                310     PRECALL                       1
+                314     CALL                          1
+                324     BINARY_OP                     0 (+)
+                328     LOAD_CONST                    6: '\n'
+                330     BINARY_OP                     0 (+)
+                334     PRECALL                       1
+                338     CALL                          1
+                348     POP_TOP                       
+                350     LOAD_GLOBAL                   16: good_proxies_sock
+                362     LOAD_METHOD                   9: append
+                384     LOAD_GLOBAL                   15: NULL + str
+                396     LOAD_FAST                     1: ip
+                398     LOAD_FAST                     3: i
+                400     BINARY_SUBSCR                 
+                410     PRECALL                       1
+                414     CALL                          1
+                424     LOAD_CONST                    3: 1
+                426     LOAD_CONST                    4: -1
+                428     BUILD_SLICE                   2
+                430     BINARY_SUBSCR                 
+                440     LOAD_CONST                    5: ':'
+                442     BINARY_OP                     0 (+)
+                446     LOAD_GLOBAL                   15: NULL + str
+                458     LOAD_FAST                     2: port
+                460     LOAD_FAST                     3: i
+                462     BINARY_SUBSCR                 
+                472     PRECALL                       1
+                476     CALL                          1
+                486     BINARY_OP                     0 (+)
+                490     PRECALL                       1
+                494     CALL                          1
+                504     POP_TOP                       
+                506     JUMP_BACKWARD                 162
+                508     LOAD_CONST                    0: None
+                510     RETURN_VALUE                  
+        [Code]
+            File Name: <x>
+            Object Name: huykaiser_eight
+            Qualified Name: huykaiser_eight
+            Arg Count: 1
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Stack Size: 8
+            Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+            [Names]
+                're'
+                'findall'
+                'huykaiser_nine'
+                'range'
+                'len'
+                'file_sock'
+                'write'
+                'str'
+                'good_proxies_sock'
+                'append'
+            [Locals+Names]
+                'url'
+                'ip'
+                'port'
+                'i'
+            [Constants]
+                None
+                '>\\s+(\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3})'
+                '>\\s+(\\d{2,5})\\n'
+                ':'
+                '\n'
+            [Disassembly]
+                0       RESUME                        0
+                2       LOAD_GLOBAL                   1: NULL + re
+                14      LOAD_ATTR                     1: findall
+                24      LOAD_CONST                    1: '>\\s+(\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3})'
+                26      LOAD_FAST                     0: url
+                28      PRECALL                       2
+                32      CALL                          2
+                42      STORE_FAST                    1: ip
+                44      LOAD_GLOBAL                   1: NULL + re
+                56      LOAD_ATTR                     1: findall
+                66      LOAD_CONST                    2: '>\\s+(\\d{2,5})\\n'
+                68      LOAD_FAST                     0: url
+                70      PRECALL                       2
+                74      CALL                          2
+                84      STORE_FAST                    2: port
+                86      LOAD_FAST                     1: ip
+                88      POP_JUMP_FORWARD_IF_FALSE     2
+                90      LOAD_FAST                     2: port
+                92      POP_JUMP_FORWARD_IF_TRUE      17
+                94      LOAD_GLOBAL                   5: NULL + huykaiser_nine
+                106     LOAD_FAST                     0: url
+                108     PRECALL                       1
+                112     CALL                          1
+                122     POP_TOP                       
+                124     LOAD_CONST                    0: None
+                126     RETURN_VALUE                  
+                128     LOAD_GLOBAL                   7: NULL + range
+                140     LOAD_GLOBAL                   9: NULL + len
+                152     LOAD_FAST                     1: ip
+                154     PRECALL                       1
+                158     CALL                          1
+                168     PRECALL                       1
+                172     CALL                          1
+                182     GET_ITER                      
+                184     FOR_ITER                      145 (to 476)
+                186     STORE_FAST                    3: i
+                188     LOAD_GLOBAL                   10: file_sock
+                200     LOAD_METHOD                   6: write
+                222     LOAD_GLOBAL                   15: NULL + str
+                234     LOAD_FAST                     1: ip
+                236     LOAD_FAST                     3: i
+                238     BINARY_SUBSCR                 
+                248     PRECALL                       1
+                252     CALL                          1
+                262     LOAD_CONST                    3: ':'
+                264     BINARY_OP                     0 (+)
+                268     LOAD_GLOBAL                   15: NULL + str
+                280     LOAD_FAST                     2: port
+                282     LOAD_FAST                     3: i
+                284     BINARY_SUBSCR                 
+                294     PRECALL                       1
+                298     CALL                          1
+                308     BINARY_OP                     0 (+)
+                312     LOAD_CONST                    4: '\n'
+                314     BINARY_OP                     0 (+)
+                318     PRECALL                       1
+                322     CALL                          1
+                332     POP_TOP                       
+                334     LOAD_GLOBAL                   16: good_proxies_sock
+                346     LOAD_METHOD                   9: append
+                368     LOAD_GLOBAL                   15: NULL + str
+                380     LOAD_FAST                     1: ip
+                382     LOAD_FAST                     3: i
+                384     BINARY_SUBSCR                 
+                394     PRECALL                       1
+                398     CALL                          1
+                408     LOAD_CONST                    3: ':'
+                410     BINARY_OP                     0 (+)
+                414     LOAD_GLOBAL                   15: NULL + str
+                426     LOAD_FAST                     2: port
+                428     LOAD_FAST                     3: i
+                430     BINARY_SUBSCR                 
+                440     PRECALL                       1
+                444     CALL                          1
+                454     BINARY_OP                     0 (+)
+                458     PRECALL                       1
+                462     CALL                          1
+                472     POP_TOP                       
+                474     JUMP_BACKWARD                 146
+                476     LOAD_CONST                    0: None
+                478     RETURN_VALUE                  
+        [Code]
+            File Name: <x>
+            Object Name: huykaiser_nine
+            Qualified Name: huykaiser_nine
+            Arg Count: 1
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Stack Size: 8
+            Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+            [Names]
+                're'
+                'findall'
+                'huykaiser_ten'
+                'range'
+                'len'
+                'file_sock'
+                'write'
+                'str'
+                'good_proxies_sock'
+                'append'
+            [Locals+Names]
+                'url'
+                'ip'
+                'port'
+                'i'
+            [Constants]
+                None
+                '>(?:\\d{1,3}\\.){3}\\d{1,3}<'
+                '>(?:\\d{2,5})<'
+                1
+                -1
+                ':'
+                '\n'
+            [Disassembly]
+                0       RESUME                        0
+                2       LOAD_GLOBAL                   1: NULL + re
+                14      LOAD_ATTR                     1: findall
+                24      LOAD_CONST                    1: '>(?:\\d{1,3}\\.){3}\\d{1,3}<'
+                26      LOAD_FAST                     0: url
+                28      PRECALL                       2
+                32      CALL                          2
+                42      STORE_FAST                    1: ip
+                44      LOAD_GLOBAL                   1: NULL + re
+                56      LOAD_ATTR                     1: findall
+                66      LOAD_CONST                    2: '>(?:\\d{2,5})<'
+                68      LOAD_FAST                     0: url
+                70      PRECALL                       2
+                74      CALL                          2
+                84      STORE_FAST                    2: port
+                86      LOAD_FAST                     1: ip
+                88      POP_JUMP_FORWARD_IF_FALSE     2
+                90      LOAD_FAST                     2: port
+                92      POP_JUMP_FORWARD_IF_TRUE      17
+                94      LOAD_GLOBAL                   5: NULL + huykaiser_ten
+                106     LOAD_FAST                     0: url
+                108     PRECALL                       1
+                112     CALL                          1
+                122     POP_TOP                       
+                124     LOAD_CONST                    0: None
+                126     RETURN_VALUE                  
+                128     LOAD_GLOBAL                   7: NULL + range
+                140     LOAD_GLOBAL                   9: NULL + len
+                152     LOAD_FAST                     1: ip
+                154     PRECALL                       1
+                158     CALL                          1
+                168     PRECALL                       1
+                172     CALL                          1
+                182     GET_ITER                      
+                184     FOR_ITER                      177 (to 540)
+                186     STORE_FAST                    3: i
+                188     LOAD_GLOBAL                   10: file_sock
+                200     LOAD_METHOD                   6: write
+                222     LOAD_GLOBAL                   15: NULL + str
+                234     LOAD_FAST                     1: ip
+                236     LOAD_FAST                     3: i
+                238     BINARY_SUBSCR                 
+                248     PRECALL                       1
+                252     CALL                          1
+                262     LOAD_CONST                    3: 1
+                264     LOAD_CONST                    4: -1
+                266     BUILD_SLICE                   2
+                268     BINARY_SUBSCR                 
+                278     LOAD_CONST                    5: ':'
+                280     BINARY_OP                     0 (+)
+                284     LOAD_GLOBAL                   15: NULL + str
+                296     LOAD_FAST                     2: port
+                298     LOAD_FAST                     3: i
+                300     BINARY_SUBSCR                 
+                310     PRECALL                       1
+                314     CALL                          1
+                324     LOAD_CONST                    3: 1
+                326     LOAD_CONST                    4: -1
+                328     BUILD_SLICE                   2
+                330     BINARY_SUBSCR                 
+                340     BINARY_OP                     0 (+)
+                344     LOAD_CONST                    6: '\n'
+                346     BINARY_OP                     0 (+)
+                350     PRECALL                       1
+                354     CALL                          1
+                364     POP_TOP                       
+                366     LOAD_GLOBAL                   16: good_proxies_sock
+                378     LOAD_METHOD                   9: append
+                400     LOAD_GLOBAL                   15: NULL + str
+                412     LOAD_FAST                     1: ip
+                414     LOAD_FAST                     3: i
+                416     BINARY_SUBSCR                 
+                426     PRECALL                       1
+                430     CALL                          1
+                440     LOAD_CONST                    3: 1
+                442     LOAD_CONST                    4: -1
+                444     BUILD_SLICE                   2
+                446     BINARY_SUBSCR                 
+                456     LOAD_CONST                    5: ':'
+                458     BINARY_OP                     0 (+)
+                462     LOAD_GLOBAL                   15: NULL + str
+                474     LOAD_FAST                     2: port
+                476     LOAD_FAST                     3: i
+                478     BINARY_SUBSCR                 
+                488     PRECALL                       1
+                492     CALL                          1
+                502     LOAD_CONST                    3: 1
+                504     LOAD_CONST                    4: -1
+                506     BUILD_SLICE                   2
+                508     BINARY_SUBSCR                 
+                518     BINARY_OP                     0 (+)
+                522     PRECALL                       1
+                526     CALL                          1
+                536     POP_TOP                       
+                538     JUMP_BACKWARD                 178
+                540     LOAD_CONST                    0: None
+                542     RETURN_VALUE                  
+        [Code]
+            File Name: <x>
+            Object Name: huykaiser_ten
+            Qualified Name: huykaiser_ten
+            Arg Count: 1
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Stack Size: 8
+            Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+            [Names]
+                're'
+                'findall'
+                'range'
+                'len'
+                'file_sock'
+                'write'
+                'str'
+                'good_proxies_sock'
+                'append'
+            [Locals+Names]
+                'url'
+                'ip'
+                'port'
+                'i'
+            [Constants]
+                None
+                '(\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3})'
+                '(\\d{2,5})'
+                ':'
+                '\n'
+            [Disassembly]
+                0       RESUME                        0
+                2       LOAD_GLOBAL                   1: NULL + re
+                14      LOAD_ATTR                     1: findall
+                24      LOAD_CONST                    1: '(\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3})'
+                26      LOAD_FAST                     0: url
+                28      PRECALL                       2
+                32      CALL                          2
+                42      STORE_FAST                    1: ip
+                44      LOAD_GLOBAL                   1: NULL + re
+                56      LOAD_ATTR                     1: findall
+                66      LOAD_CONST                    2: '(\\d{2,5})'
+                68      LOAD_FAST                     0: url
+                70      PRECALL                       2
+                74      CALL                          2
+                84      STORE_FAST                    2: port
+                86      LOAD_GLOBAL                   5: NULL + range
+                98      LOAD_GLOBAL                   7: NULL + len
+                110     LOAD_FAST                     1: ip
+                112     PRECALL                       1
+                116     CALL                          1
+                126     PRECALL                       1
+                130     CALL                          1
+                140     GET_ITER                      
+                142     FOR_ITER                      145 (to 434)
+                144     STORE_FAST                    3: i
+                146     LOAD_GLOBAL                   8: file_sock
+                158     LOAD_METHOD                   5: write
+                180     LOAD_GLOBAL                   13: NULL + str
+                192     LOAD_FAST                     1: ip
+                194     LOAD_FAST                     3: i
+                196     BINARY_SUBSCR                 
+                206     PRECALL                       1
+                210     CALL                          1
+                220     LOAD_CONST                    3: ':'
+                222     BINARY_OP                     0 (+)
+                226     LOAD_GLOBAL                   13: NULL + str
+                238     LOAD_FAST                     2: port
+                240     LOAD_FAST                     3: i
+                242     BINARY_SUBSCR                 
+                252     PRECALL                       1
+                256     CALL                          1
+                266     BINARY_OP                     0 (+)
+                270     LOAD_CONST                    4: '\n'
+                272     BINARY_OP                     0 (+)
+                276     PRECALL                       1
+                280     CALL                          1
+                290     POP_TOP                       
+                292     LOAD_GLOBAL                   14: good_proxies_sock
+                304     LOAD_METHOD                   8: append
+                326     LOAD_GLOBAL                   13: NULL + str
+                338     LOAD_FAST                     1: ip
+                340     LOAD_FAST                     3: i
+                342     BINARY_SUBSCR                 
+                352     PRECALL                       1
+                356     CALL                          1
+                366     LOAD_CONST                    3: ':'
+                368     BINARY_OP                     0 (+)
+                372     LOAD_GLOBAL                   13: NULL + str
+                384     LOAD_FAST                     2: port
+                386     LOAD_FAST                     3: i
+                388     BINARY_SUBSCR                 
+                398     PRECALL                       1
+                402     CALL                          1
+                412     BINARY_OP                     0 (+)
+                416     PRECALL                       1
+                420     CALL                          1
+                430     POP_TOP                       
+                432     JUMP_BACKWARD                 146
+                434     LOAD_CONST                    0: None
+                436     RETURN_VALUE                  
+        [Code]
+            File Name: <x>
+            Object Name: start
+            Qualified Name: start
+            Arg Count: 1
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Stack Size: 5
+            Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+            [Names]
+                'requests'
+                'get'
+                'text'
+                'shttp'
+                'huykaiser_one'
+                'print'
+                'psock'
+                'huykaiser_six'
+                'exceptions'
+                'SSLError'
+            [Locals+Names]
+                'url'
+                'req'
+            [Constants]
+                None
+                'user-agent'
+                'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36'
+                (
+                    'headers'
+                )
+                '\x1b[1;36m[ HuyKaiser Dev ] \x1b[0m|\x1b[1;32m SCAN THÀNH CÔNG PROXYS HTTP'
+                '\x1b[1;36m[ HuyKaiser Dev ] \x1b[0m|\x1b[1;32m SCAN THÀNH CÔNG PROXYS SOCK'
+                '\x1b[1;36m[ HuyKaiser Dev ] \x1b[0m|\x1b[1;32m SCAN LỖI SSL'
+                '\x1b[1;36m[ HuyKaiser Dev ] \x1b[0m|\x1b[1;32m SCAN LỖI KHI RANDOM'
+            [Disassembly]
+                0       RESUME                        0
+                2       NOP                           
+                4       LOAD_GLOBAL                   1: NULL + requests
+                16      LOAD_ATTR                     1: get
+                26      LOAD_FAST                     0: url
+                28      LOAD_CONST                    1: 'user-agent'
+                30      LOAD_CONST                    2: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36'
+                32      BUILD_MAP                     1
+                34      KW_NAMES                      3
+                36      PRECALL                       2
+                40      CALL                          2
+                50      LOAD_ATTR                     2: text
+                60      STORE_FAST                    1: req
+                62      LOAD_FAST                     0: url
+                64      LOAD_GLOBAL                   6: shttp
+                76      CONTAINS_OP                   0 (in)
+                78      POP_JUMP_FORWARD_IF_FALSE     31
+                80      LOAD_GLOBAL                   9: NULL + huykaiser_one
+                92      LOAD_FAST                     1: req
+                94      PRECALL                       1
+                98      CALL                          1
+                108     POP_TOP                       
+                110     LOAD_GLOBAL                   11: NULL + print
+                122     LOAD_CONST                    4: '\x1b[1;36m[ HuyKaiser Dev ] \x1b[0m|\x1b[1;32m SCAN THÀNH CÔNG PROXYS HTTP'
+                124     PRECALL                       1
+                128     CALL                          1
+                138     POP_TOP                       
+                140     JUMP_FORWARD                  24 (to 190)
+                142     LOAD_FAST                     0: url
+                144     LOAD_GLOBAL                   12: psock
+                156     CONTAINS_OP                   0 (in)
+                158     POP_JUMP_FORWARD_IF_FALSE     15
+                160     LOAD_GLOBAL                   15: NULL + huykaiser_six
+                172     LOAD_FAST                     1: req
+                174     PRECALL                       1
+                178     CALL                          1
+                188     POP_TOP                       
+                190     LOAD_GLOBAL                   11: NULL + print
+                202     LOAD_CONST                    5: '\x1b[1;36m[ HuyKaiser Dev ] \x1b[0m|\x1b[1;32m SCAN THÀNH CÔNG PROXYS SOCK'
+                204     PRECALL                       1
+                208     CALL                          1
+                218     POP_TOP                       
+                220     LOAD_CONST                    0: None
+                222     RETURN_VALUE                  
+                224     PUSH_EXC_INFO                 
+                226     LOAD_GLOBAL                   0: requests
+                238     LOAD_ATTR                     8: exceptions
+                248     LOAD_ATTR                     9: SSLError
+                258     CHECK_EXC_MATCH               
+                260     POP_JUMP_FORWARD_IF_FALSE     19
+                262     POP_TOP                       
+                264     LOAD_GLOBAL                   11: NULL + print
+                276     LOAD_CONST                    6: '\x1b[1;36m[ HuyKaiser Dev ] \x1b[0m|\x1b[1;32m SCAN LỖI SSL'
+                278     PRECALL                       1
+                282     CALL                          1
+                292     POP_TOP                       
+                294     POP_EXCEPT                    
+                296     LOAD_CONST                    0: None
+                298     RETURN_VALUE                  
+                300     POP_TOP                       
+                302     LOAD_GLOBAL                   11: NULL + print
+                314     LOAD_CONST                    7: '\x1b[1;36m[ HuyKaiser Dev ] \x1b[0m|\x1b[1;32m SCAN LỖI KHI RANDOM'
+                316     PRECALL                       1
+                320     CALL                          1
+                330     POP_TOP                       
+                332     POP_EXCEPT                    
+                334     LOAD_CONST                    0: None
+                336     RETURN_VALUE                  
+                338     COPY                          3
+                340     POP_EXCEPT                    
+                342     RERAISE                       1
+        '\n'
+        (
+            'target'
+            'args'
+        )
+        '\n\x1b[1;37m[/] Tổng số proxies HTTP đã thu thập: \x1b[1;32m'
+        '\x1b[1;37m[/] Tổng số proxies SOCK đã thu thập: \x1b[1;32m'
+        '\x1b[1;37m[/] Tổng số proxies đã thu thập: \x1b[1;32m'
+    [Disassembly]
+        0       RESUME                        0
+        2       LOAD_CONST                    0: 0
+        4       LOAD_CONST                    1: None
+        6       IMPORT_NAME                   0: re
+        8       STORE_NAME                    0: re
+        10      LOAD_CONST                    0: 0
+        12      LOAD_CONST                    1: None
+        14      IMPORT_NAME                   1: requests
+        16      STORE_NAME                    1: requests
+        18      LOAD_CONST                    0: 0
+        20      LOAD_CONST                    1: None
+        22      IMPORT_NAME                   2: os
+        24      STORE_NAME                    2: os
+        26      LOAD_CONST                    0: 0
+        28      LOAD_CONST                    1: None
+        30      IMPORT_NAME                   3: threading
+        32      STORE_NAME                    3: threading
+        34      PUSH_NULL                     
+        36      LOAD_NAME                     2: os
+        38      LOAD_ATTR                     4: system
+        48      LOAD_NAME                     2: os
+        50      LOAD_ATTR                     5: name
+        60      LOAD_CONST                    2: 'nt'
+        62      COMPARE_OP                    2 (==)
+        68      POP_JUMP_FORWARD_IF_FALSE     2
+        70      LOAD_CONST                    3: 'cls'
+        72      JUMP_FORWARD                  1 (to 76)
+        74      LOAD_CONST                    4: 'clear'
+        76      PRECALL                       1
+        80      CALL                          1
+        90      POP_TOP                       
+        92      LOAD_CONST                    5: '\nhttps://tcplegitxnight.store/http.txt\nhttps://tcplegitxnight.store/https.txt\nhttps://raw.githubusercontent.com/MuRongPIG/Proxy-Master/main/http.txt\nhttps://api.proxyscrape.com/?request=displayproxies&proxytype=http&country=all\nhttps://api.proxyscrape.com/?request=displayproxies&proxytype=https&country=all\nhttps://api.proxyscrape.com/?request=displayproxies&proxytype=all&country=all\nhttps://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all\nhttps://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all&ssl=yes\nhttps://www.proxy-list.download/api/v1/get?type=http&anon=elite\nhttps://www.proxy-list.download/api/v1/get?type=http&anon=anonymous\nhttps://raw.githubusercontent.com/Kenne400k/proxy100k/main/proxy100k\n    https://api.proxyscrape.com/?request=displayproxies&proxytype=http\n    https://api.openproxylist.xyz/http.txt\n    http://alexa.lr2b.com/proxylist.txt\n    https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\n    https://proxy-spider.com/api/proxies.example.txt\n    https://sheesh.rip/http.txt\n    https://www.freeproxychecker.com/result/http_proxies.txt\n    https://raw.githubusercontent.com/proxy4parsing/proxy-list/main/http.txt\n    http://proxysearcher.sourceforge.net/Proxy%20List.php?type=http\n    https://api.proxyscrape.com/v2/?request=getproxies&protocol=http\n    https://openproxy.space/list/http\n    https://openproxylist.xyz/http.txt\n    https://raw.githubusercontent.com/almroot/proxylist/master/list.txt\n    https://raw.githubusercontent.com/B4RC0DE-TM/proxy-list/main/HTTP.txt\n    https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt\n    https://raw.githubusercontent.com/hendrikbgr/Free-Proxy-Repo/master/proxy_list.txt\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-https.txt\n    https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt\n    https://raw.githubusercontent.com/mmpx12/proxy-list/master/http.txt\n    https://raw.githubusercontent.com/mmpx12/proxy-list/master/https.txt\n    https://raw.githubusercontent.com/proxy4parsing/proxy-list/main/http.txt\n    https://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt\n    https://raw.githubusercontent.com/RX4096/proxy-list/main/online/http.txt\n    https://raw.githubusercontent.com/RX4096/proxy-list/main/online/https.txt\n    https://raw.githubusercontent.com/saschazesiger/Free-Proxies/master/proxies/http.txt\n    https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt\n    https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/https.txt\n    https://raw.githubusercontent.com/sunny9577/proxy-scraper/master/proxies.txt\n    https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\n    https://rootjazz.com/proxies/proxies.txt\n    https://sheesh.rip/http.txt\n    https://spys.me/proxy.txt\n    https://www.freeproxychecker.com/result/http_proxies.txt\n    https://www.proxy-list.download/api/v1/get?type=http\n    https://www.proxy-list.download/api/v1/get?type=https\n    https://www.proxyscan.io/download?type=http\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-https.txt\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt\n    https://api.proxyscrape.com/v2/?request=getproxies&protocol=http&timeout=10000&country=all\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-https.txt\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-http.txt\n    https://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt\n    https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt\n    https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\n    https://www.proxy-list.download/api/v1/get?type=http\n    https://www.proxy-list.download/api/v1/get?type=https\n    https://www.proxyscan.io/download?type=http\n    https://www.proxyscan.io/download?type=https\n    https://api.openproxylist.xyz/http.txt\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks4.txt\n    https://api.proxyscrape.com/v2/?request=getproxies&protocol=socks4&timeout=10000&country=all\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-socks4.txt\n    https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS4_RAW.txt\n    https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks4.txt\n    https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt\n    https://www.proxy-list.download/api/v1/get?type=socks4\n    https://www.proxyscan.io/download?type=socks4\n    https://api.openproxylist.xyz/socks4.txt\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks5.txt\n    https://api.proxyscrape.com/v2/?request=getproxies&protocol=socks5&timeout=10000&country=all\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-socks5.txt\n    https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS5_RAW.txt\n    https://github.com/jetkai/proxy-list/blob/main/archive/txt/proxies-socks5.txt\n    https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks5.txt\n    https://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt\n    https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt\n    https://www.proxy-list.download/api/v1/get?type=socks5\n    https://www.proxyscan.io/download?type=socks5\n    https://api.openproxylist.xyz/socks5.txt\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies.txt\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies.txt\n    https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt\n    https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/proxy.txt\n    http://hack-hack.chat.ru/proxy/allproxy.txt\n    http://hack-hack.chat.ru/proxy/p1.txt\n    http://hack-hack.chat.ru/proxy/p2.txt\n    http://hack-hack.chat.ru/proxy/p3.txt\n    http://hack-hack.chat.ru/proxy/p4.txt\n    http://olaf4snow.com/public/proxy.txt\n    http://alexa.lr2b.com/proxylist.txt\n    http://inav.chat.ru/ftp/proxy.txt\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-https.txt\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt\n    https://api.proxyscrape.com/v2/?request=getproxies&protocol=http&timeout=500&country=all\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-https.txt\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-http.txt\n    https://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt\n    https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt\n    https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\n    https://www.proxy-list.download/api/v1/get?type=http\n    https://www.proxyscan.io/download?type=http\n    https://api.openproxylist.xyz/http.txt\n    https://github.com/mmpx12/proxy-list/raw/master/http.txt\nhttps://github.com/UptimerBot/proxy-list/raw/main/proxies/http.txt\nhttps://github.com/monosans/proxy-list/raw/main/proxies/http.txt\nhttps://github.com/jetkai/proxy-list/raw/main/online-proxies/txt/proxies-http.txt\nhttps://github.com/TheSpeedX/PROXY-List/raw/master/http.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt\nhttps://raw.githubusercontent.com/thespeedx/proxy-list/master/http.txt\nhttps://raw.githubusercontent.com/shiftytr/proxy-list/master/http.txt\nhttps://raw.githubusercontent.com/proxy4parsing/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt\nhttps://raw.githubusercontent.com/mmpx12/proxy-list/master/http.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt\nhttps://raw.githubusercontent.com/hyperbeats/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-http.txt\nhttps://api.openproxylist.xyz/http.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt\nhttps://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt\nhttps://raw.githubusercontent.com/HyperBeats/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/proxy4parsing/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt\nhttps://raw.githubusercontent.com/mmpx12/proxy-list/master/http.txt\nhttps://api.openproxylist.xyz/http.txt\nhttps://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-http.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt\nhttps://raw.githubusercontent.com/proxylist-to/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt\nhttps://proxyspace.pro/http.txt\nhttp://k2ysarchive.xyz/proxy/http.txt\nhttps://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\nhttps://api.openproxylist.xyz/http.txt\nhttps://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/http.txt\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\nhttps://api.openproxylist.xyz/http.txt\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\nhttps://raw.githubusercontent.com/Bardiafa/Proxy-Leecher/main/proxies.txt\nhttps://raw.githubusercontent.com/Bardiafa/Proxy-Leecher/main/good.txt\nhttps://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/http.txt\nhttps://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt\nhttps://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt\nhttps://raw.githubusercontent.com/ALIILAPRO/Proxy/main/http.txt\nhttps://raw.githubusercontent.com/yemixzy/proxy-list/main/proxies/http.txt\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\nhttps://raw.githubusercontent.com/yoannchb-pro/https-proxies/main/proxies.txt\nhttps://raw.githubusercontent.com/UptimerBot/proxy-list/master/proxies/http.txt\nhttps://raw.githubusercontent.com/UptimerBot/proxy-list/master/proxies/http.txt\nhttps://raw.githubusercontent.com/UptimerBot/proxy-list/master/proxies/http.txt\nhttps://raw.githubusercontent.com/andigwandi/free-proxy/main/proxy_list.txt\nhttps://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/http/http.txt\nhttps://raw.githubusercontent.com/proxy4parsing/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt\nhttps://raw.githubusercontent.com/sunny9577/proxy-scraper/master/proxies.txt\nhttps://raw.githubusercontent.com/caliphdev/Proxy-List/master/http.txt\nhttps://raw.githubusercontent.com/zevtyardt/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/fahimscirex/proxybd/master/anonymous-proxylist/http.txt\nhttps://raw.githubusercontent.com/ToShukKr/rProxyList/main/proxy-list.txt\nhttps://raw.githubusercontent.com/prxchk/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/saisuiu/Lionkings-Http-Proxys-Proxies/main/free.txt\nhttp://globalproxies.blogspot.com/\nhttp://www.cybersyndrome.net/plz.html\nhttp://www.cybersyndrome.net/plr5.html\nhttp://biskutliat.blogspot.com/\nhttp://freeproxylist-daily.blogspot.com/2013/05/usa-proxy-list-2013-05-15-0111-am-gmt8.html\nhttp://freeproxylist-daily.blogspot.com/2013/05/usa-proxy-list-2013-05-13-812-gmt7.html\nhttp://www.cybersyndrome.net/pla5.html\nhttp://vipprox.blogspot.com/2013_06_01_archive.html\nhttp://vipprox.blogspot.com/2013/05/us-proxy-servers-74_24.html\nhttp://vipprox.blogspot.com/p/blog-page_7.html\nhttp://vipprox.blogspot.com/2013/05/us-proxy-servers-199_20.html\nhttp://vipprox.blogspot.com/2013_02_01_archive.html\nhttp://alexa.lr2b.com/proxylist.txt\nhttp://vipprox.blogspot.com/2013_03_01_archive.html\nhttp://browse.feedreader.com/c/Proxy_Server_List-1/449196260\nhttp://browse.feedreader.com/c/Proxy_Server_List-1/449196258\nhttp://sock5us.blogspot.com/2013/06/01-07-13-free-proxy-server-list.html#comment-form\nhttp://browse.feedreader.com/c/Proxy_Server_List-1/449196251\nhttp://free-ssh.blogspot.com/feeds/posts/default\nhttp://browse.feedreader.com/c/Proxy_Server_List-1/449196259\nhttp://sockproxy.blogspot.com/2013/04/11-04-13-socks-45.html\nhttp://proxyfirenet.blogspot.com/\nhttps://www.javatpoint.com/proxy-server-list\nhttps://openproxy.space/list/http\nhttp://proxydb.net/\nhttp://olaf4snow.com/public/proxy.txt\nhttp://westdollar.narod.ru/proxy.htm\nhttps://openproxy.space/list/socks4\nhttps://openproxy.space/list/socks5\nhttp://tomoney.narod.ru/help/proxi.htm\nhttp://sergei-m.narod.ru/proxy.htm\nhttp://rammstein.narod.ru/proxy.html\nhttp://greenrain.bos.ru/R_Stuff/Proxy.htm\nhttp://inav.chat.ru/ftp/proxy.txt\nhttp://johnstudio0.tripod.com/index1.htm\nhttp://atomintersoft.com/transparent_proxy_list\nhttp://atomintersoft.com/anonymous_proxy_list\nhttp://atomintersoft.com/high_anonymity_elite_proxy_list\nhttp://atomintersoft.com/products/alive-proxy/proxy-list/3128\nhttp://atomintersoft.com/products/alive-proxy/proxy-list/com\nhttp://atomintersoft.com/products/alive-proxy/proxy-list/high-anonymity/\nhttp://atomintersoft.com/products/alive-proxy/socks5-list\nhttp://atomintersoft.com/proxy_list_domain_com\nhttp://atomintersoft.com/proxy_list_domain_edu\nhttp://atomintersoft.com/proxy_list_domain_net\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt\nhttp://atomintersoft.com/proxy_list_domain_org\nhttp://atomintersoft.com/proxy_list_port_3128\nhttp://atomintersoft.com/proxy_list_port_80\nhttp://atomintersoft.com/proxy_list_port_8000\nhttp://atomintersoft.com/proxy_list_port_81\nhttp://hack-hack.chat.ru/proxy/allproxy.txt\nhttps://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt\nhttp://hack-hack.chat.ru/proxy/anon.txt\nhttp://hack-hack.chat.ru/proxy/p1.txt\nhttp://hack-hack.chat.ru/proxy/p2.txt\nhttp://hack-hack.chat.ru/proxy/p3.txt\nhttp://hack-hack.chat.ru/proxy/p4.txt\nhttps://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\nhttps://free-proxy-list.net/\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies.txt\nhttps://www.us-proxy.org/\nhttps://free-proxy-list.com/\nhttps://raw.githubusercontent.com/sunny9577/proxy-scraper/master/proxies.txt\nhttps://api.proxyscrape.com/?request=getproxies&proxytype=http&timeout=10000&country=all&ssl=all&anonymity=all\nhttps://api.proxyscrape.com/?request=getproxies&proxytype=socks4&timeout=10000&country=all\nhttps://api.proxyscrape.com/?request=getproxies&proxytype=socks5&timeout=10000&country=all\nhttps://spys.one/\nhttps://api.proxyscrape.com/?request=getproxies&proxytype=https&timeout=10000&country=all&ssl=all&anonymity=all\nhttps://api.proxyscrape.com/v2/?request=getproxies&protocol=socks4&timeout=10000&country=all\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/proxy.txt\nhttps://api.proxyscrape.com/v2/?request=getproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all\nhttps://api.proxyscrape.com/v2/?request=getproxies&protocol=socks5&timeout=10000&country=all\nhttps://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt\nhttps://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS4_RAW.txt\nhttps://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS5_RAW.txt\nhttps://api.openproxylist.xyz/http.txt\nhttps://api.openproxylist.xyz/socks4.txt\nhttps://api.openproxylist.xyz/socks5.txt\nhttps://www.proxy-list.download/api/v1/get?type=http\nhttps://www.proxy-list.download/api/v1/get?type=https\nhttps://www.proxy-list.download/api/v1/get?type=socks4\nhttps://www.proxy-list.download/api/v1/get?type=socks5\nhttps://www.proxyscan.io/download?type=http\nhttps://www.proxyscan.io/download?type=https\nhttps://www.proxyscan.io/download?type=socks4\nhttps://www.proxyscan.io/download?type=socks5\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\nhttps://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4\nhttps://api.proxyscrape.com/?request=displayproxies&proxytype=socks4\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks4.txt\nhttps://www.proxy-list.download/api/v1/get?type=socks4\nhttps://www.proxyscan.io/download?type=socks4\nhttps://api.openproxylist.xyz/socks4.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/socks4.txt\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt\nhttps://www.my-proxy.com/free-socks-4-proxy.html\nhttps://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS4_RAW.txt\nhttp://proxysearcher.sourceforge.net/Proxy/List.php?type=socks\nhttps://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/socks4.txt\nhttp://www.socks24.org/feeds/posts/default\nhttps://www.freeproxychecker.com/result/socks4_proxies.txt\nhttp://worm.rip/socks4.txt\nhttps://www.freeproxychecker.com/result/socks4_proxies.txt\nhttp://k2ysarchive.xyz/proxy/socks4.txt\nhttps://api.proxyscrape.com/?request=displayproxies&proxytype=socks5\nhttps://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks5\nhttps://www.proxy-list.download/api/v1/get?type=socks5\nhttps://www.proxyscan.io/download?type=socks5\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/socks5.txt\nhttps://www.my-proxy.com/free-socks-5-proxy.html\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks5.txt\nhttps://github.com/roosterkid/openproxylist/blob/main/SOCKS5_RAW.txt\nhttps://api.openproxylist.xyz/socks5.txt\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt\nhttps://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks5\nhttp://www.socks24.org/feeds/posts/default\nhttps://www.freeproxychecker.com/result/socks5_proxies.txt\nhttps://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/socks5.txt\nhttp://worm.rip/socks5.txt\nhttps://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt\nhttp://k2ysarchive.xyz/proxy/socks5.txt\nhttps://api.proxyscrape.com/?request=displayproxies&proxytype=http\nhttps://www.proxy-list.download/api/v1/get?type=http\nhttps://www.proxyscan.io/download?type=http\nhttp://spys.me/proxy.txt\nhttps://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/http.txt\nhttps://api.openproxylist.xyz/http.txt\nhttps://www.my-proxy.com/free-proxy-list.html\nhttps://raw.githubusercontent.com/shiftytr/proxy-list/master/proxy.txt\nhttps://www.my-proxy.com/free-anonymous-proxy.html\nhttps://www.my-proxy.com/free-transparent-proxy.html\nhttps://www.my-proxy.com/free-proxy-list-2.html\nhttps://www.my-proxy.com/free-proxy-list-3.html\nhttps://www.my-proxy.com/free-proxy-list-4.html\nhttps://proxy50-50.blogspot.com/\nhttps://www.my-proxy.com/free-proxy-list-5.html\nhttp://alexa.lr2b.com/proxylist.txt\nhttp://rootjazz.com/proxies/proxies.txt\nhttps://www.freeproxychecker.com/result/http_proxies.txt\nhttps://www.my-proxy.com/free-socks-4-proxy.html\nhttp://www.proxyserverlist24.top/feeds/posts/default\nhttps://www.my-proxy.com/free-proxy-list-6.html\nhttps://www.my-proxy.com/free-proxy-list-7.html\nhttps://www.my-proxy.com/free-proxy-list-8.html\nhttp://proxysearcher.sourceforge.net/Proxy%20List.php?type=http\nhttps://www.my-proxy.com/free-proxy-list-9.html\nhttps://www.my-proxy.com/free-proxy-list-10.html\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt\nhttps://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt\nhttps://raw.githubusercontent.com/sunny9577/proxy-scraper/master/proxies.txt\nhttps://raw.githubusercontent.com/UserR3X/proxy-list/main/online/http.txt\nhttps://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt\nhttps://raw.githubusercontent.com/opsxcq/proxy-list/master/list.txt\nhttps://proxy-spider.com/api/proxies.example.txt\nhttps://multiproxy.org/txt_all/proxy.txt\nhttp://rootjazz.com/proxies/proxies.txt\nhttps://raw.githubusercontent.com/clarketm/proxy\nhttp://k2ysarchive.xyz/proxy/http.txt\nhttps://proxyspace.pro/http.txt\nhttps://proxyspace.pro/https.txt\nhttps://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all\nhttps://www.proxy-list.download/api/v1/get?type=http&anon=elite&country=US\nhttps://raw.githubusercontent.com/shiftytr/proxy-list/master/proxy.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/https.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/socks5.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/socks4.txt\nhttps://hidemy.name/en/proxy-list/\nhttps://raw.githubusercontent.com/proxylist-to/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/proxylist-to/proxy-list/main/socks5.txt\nhttps://raw.githubusercontent.com/proxylist-to/proxy-list/main/socks4.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-https.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt\nhttps://api.proxyscrape.com/v2/?request=getproxies&protocol=http&timeout=10000&country=all\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-https.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-http.txt\nhttps://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt\nhttps://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt\nhttps://www.proxy-list.download/api/v1/get?type=http\nhttps://www.proxy-list.download/api/v1/get?type=https\nhttps://www.proxyscan.io/download?type=http\nhttps://www.proxyscan.io/download?type=https\nhttps://api.openproxylist.xyz/http.txt\nhttps://raw.githubusercontent.com/mmpx12/proxy-list/master/http.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt\nhttps://api.proxyscrape.com/v2/?request=getproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all\nhttps://raw.githubusercontent.com/proxy4parsing/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/HyperBeats/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies.txt\nhttps://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/proxy.txt\nhttp://hack-hack.chat.ru/proxy/allproxy.txt\nhttp://hack-hack.chat.ru/proxy/p1.txt\nhttp://hack-hack.chat.ru/proxy/p2.txt\nhttp://hack-hack.chat.ru/proxy/p3.txt\nhttp://inav.chat.ru/ftp/proxy.txt\nhttps://cyber-hub.pw/statics/proxy.txt\nhttps://raw.githubusercontent.com/saschazesiger/Free-Proxies/master/proxies/all.txt\nhttps://api.proxyscrape.com/v2/?request=getproxies&protocol=socks5&timeout=10000&country=all\nhttps://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS5_RAW.txt\nhttps://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks5.txt\nhttps://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt\nhttps://www.proxy-list.download/api/v1/get?type=socks5\nhttps://www.proxyscan.io/download?type=socks5\nhttps://api.openproxylist.xyz/socks5.txt\nhttps://raw.githubusercontent.com/mmpx12/proxy-list/master/socks5.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/socks5.txt\nhttps://raw.githubusercontent.com/manuGMG/proxy-365/main/SOCKS5.txt\nhttps://raw.githubusercontent.com/saschazesiger/Free-Proxies/master/proxies/socks5.txt\nhttps://raw.githubusercontent.com/HyperBeats/proxy-list/main/socks5.txtA\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks5.txt\n     https://eu1.proxysite.com/process.php?d=\n     https://eu2.proxysite.com/process.php?d=\n     https://eu3.proxysite.com/process.php?d=\n     https://eu4.proxysite.com/process.php?d=\n     https://eu5.proxysite.com/process.php?d=\n     https://eu6.proxysite.com/process.php?d=\n     https://eu7.proxysite.com/process.php?d=\n     https://eu8.proxysite.com/process.php?d=\n     https://eu9.proxysite.com/process.php?d=\n     https://eu10.proxysite.com/process.php?d=\n     https://us1.proxysite.com/process.php?d=\n     https://us2.proxysite.com/process.php?d=\n     https://us3.proxysite.com/process.php?d=\n     https://us4.proxysite.com/process.php?d=\n     https://us5.proxysite.com/process.php?d=\n     https://us6.proxysite.com/process.php?d=\n     https://us7.proxysite.com/process.php?d=\n     https://us8.proxysite.com/process.php?d=\n     https://us9.proxysite.com/process.php?d=\n     https://us10.proxysite.com/process.php?d=\n     https://us11.proxysite.com/process.php?d=\n     https://us12.proxysite.com/process.php?d=\n     https://us13.proxysite.com/process.php?d=\n     https://us14.proxysite.com/process.php?d=\n     https://us15.proxysite.com/process.php?d=\n     https://divine.graphics/proxy.php?\n     https://www.localizaip.com.br/localizar-ip.php?ip=\n    http://www.meuenderecoip.com/localizar-ip.php?ip=\n     https://website-down.com/\n    http://proxy.clgt.net/proxy.php/\n     https://www.pinterest.com/pin/create/button/?url=\n     https://www.reddit.com/login/?dest=\n     https://www.reddit.com/submit?url=\n     https://www.filterbypass.me/s.php?k=\n     https://www.filterbypass.me/?url=\n     https://quantrimang.com/url?q=\n     https://learnsql.xyz/chuyen-huong/?url=\n     https://user.gtarcade.com/site/login?rurl=\n    http://e9geolgzk6.com/iuqasfg3?dbqfdh=34&refer=\n     https://iplookup.flagfox.net/?host=\n     https://foradoar.org/\n     https://duckduckgo.com/\n     https://www.google.com/\n     https://www.youtube.com\n    http://www.google.com/?q=\n     https://www.responsinator.com/?url=\n     https://king.host/wiki/?url=\n     https://website.grader.com/results/\n     https://sitecheck.sucuri.net/results/\n     https://www.ssllabs.com/ssltest/analyze.html?d=\n     https://transparencyreport.google.com/safe-browsing/search?url=\n     https://www.webpagetest.org/?url=\n     https://www.hostinger.com.br/tutoriais/?url=\n     https://www.sslshopper.com/ssl-checker.html#hostname=\n     https://safeweb.norton.com/report/show?url=\n    http://www.usatoday.com/search/results?q=\n    http://engadget.search.aol.com/search?q=\n    http://validator.w3.org/check?uri=\n    http://www.facebook.com/sharer/sharer.php?u=\n    http://downforeveryoneorjustme.com/\n    http://network-tools.com/default.asp?prog=ping&host=\n    http://network-tools.com/default.asp?prog=trace&host=\n    http://network-tools.com/default.asp?prog=network&host=\n     https://domainr.com/?q=\n     https://down.is/\n    http://whois.domaintools.com/\n     https://downforeveryoneorjustme.com/\n     https://www.webhostinghero.com/#\n     https://www.whoishostingthis.com/#search=\n     https://ping.eu/port-chk/?url=\n     https://www.host-tracker.com/?url=\n    http://hostchecker.net/?url=\n     https://hostingchecker.com/?url=\n     https://www.virustotal.com/vi/?url=\n    http://tainhachay.mobi/?url=\n    http://globalproxies.blogspot.com/\nhttp://www.samair.ru/proxy/ip-address-15.htm\nhttp://www.cybersyndrome.net/plz.html\nhttp://aliveproxies.com/\nhttp://www.cybersyndrome.net/plr5.html\nhttp://biskutliat.blogspot.com/\nhttp://freeproxylist-daily.blogspot.com/2013/05/usa-proxy-list-2013-05-15-0111-am-gmt8.html\nhttp://proxylists.net/http_highanon.txt\nhttp://freeproxylist-daily.blogspot.com/2013/05/usa-proxy-list-2013-05-13-812-gmt7.html\nhttp://www.cybersyndrome.net/pla5.html\nhttp://vipprox.blogspot.com/2013_06_01_archive.html\nhttp://vipprox.blogspot.com/2013/05/us-proxy-servers-74_24.html\nhttp://vipprox.blogspot.com/p/blog-page_7.html\nhttp://vipprox.blogspot.com/2013/05/us-proxy-servers-199_20.html\nhttp://freeforall.ucoz.com/forum/16-13723-1\nhttp://vipprox.blogspot.com/2013_02_01_archive.html\nhttp://alexa.lr2b.com/proxylist.txt\nhttp://7proxy.blogspot.com/\nhttp://vipprox.blogspot.com/2013_03_01_archive.html\nhttp://browse.feedreader.com/c/Proxy_Server_List-1/449196260\nhttp://www.samair.ru/proxy/ip-address-09.htm\nhttp://browse.feedreader.com/c/Proxy_Server_List-1/449196258\nhttp://sock5us.blogspot.com/2013/06/01-07-13-free-proxy-server-list.html#comment-form\nhttp://www.samair.ru/proxy/proxy-13.htm\nhttp://browse.feedreader.com/c/Proxy_Server_List-1/449196251\nhttp://free-ssh.blogspot.com/feeds/posts/default\nhttp://www.samair.ru/proxy/proxy-18.htm\nhttp://www.samair.ru/proxy/proxy-15.htm\nhttp://browse.feedreader.com/c/Proxy_Server_List-1/449196259\nhttp://www.samair.ru/proxy/proxy-20.htm\nhttp://sockproxy.blogspot.com/\nhttp://free-ssh.blogspot.com/\nhttp://sock5us.blogspot.com/\nhttp://www.samair.ru/proxy/proxy-12.htm\nhttp://sockproxy.blogspot.com/2013/04/11-04-13-socks-45.html\nhttp://www.samair.ru/proxy/time-09.htm\nhttp://proxyfirenet.blogspot.com/\nhttp://globalproxies.blogspot.com/\nhttp://www.cybersyndrome.net/plz.html\nhttp://www.cybersyndrome.net/plr5.html\nhttp://biskutliat.blogspot.com/\nhttp://freeproxylist-daily.blogspot.com/2013/05/usa-proxy-list-2013-05-15-0111-am-gmt8.html\nhttp://freeproxylist-daily.blogspot.com/2013/05/usa-proxy-list-2013-05-13-812-gmt7.html\nhttp://www.cybersyndrome.net/pla5.html\nhttp://vipprox.blogspot.com/2013_06_01_archive.html\nhttp://vipprox.blogspot.com/2013/05/us-proxy-servers-74_24.html\nhttp://vipprox.blogspot.com/p/blog-page_7.html\nhttp://vipprox.blogspot.com/2013/05/us-proxy-servers-199_20.html\nhttp://vipprox.blogspot.com/2013_02_01_archive.html\nhttp://alexa.lr2b.com/proxylist.txt\nhttp://vipprox.blogspot.com/2013_03_01_archive.html\nhttp://browse.feedreader.com/c/Proxy_Server_List-1/449196260\nhttp://browse.feedreader.com/c/Proxy_Server_List-1/449196258\nhttp://sock5us.blogspot.com/2013/06/01-07-13-free-proxy-server-list.html#comment-form\nhttp://browse.feedreader.com/c/Proxy_Server_List-1/449196251\nhttp://free-ssh.blogspot.com/feeds/posts/default\nhttp://browse.feedreader.com/c/Proxy_Server_List-1/449196259\nhttp://sockproxy.blogspot.com/2013/04/11-04-13-socks-45.html\nhttp://proxyfirenet.blogspot.com/\nhttps://www.javatpoint.com/proxy-server-list\nhttps://openproxy.space/list/http\nhttp://proxydb.net/\nhttp://olaf4snow.com/public/proxy.txt\nhttp://westdollar.narod.ru/proxy.htm\nhttps://openproxy.space/list/socks4\nhttps://openproxy.space/list/socks5\nhttp://tomoney.narod.ru/help/proxi.htm\nhttp://sergei-m.narod.ru/proxy.htm\nhttp://rammstein.narod.ru/proxy.html\nhttp://greenrain.bos.ru/R_Stuff/Proxy.htm\nhttp://inav.chat.ru/ftp/proxy.txt\nhttp://johnstudio0.tripod.com/index1.htm\nhttp://atomintersoft.com/transparent_proxy_list\nhttp://atomintersoft.com/anonymous_proxy_list\nhttp://atomintersoft.com/high_anonymity_elite_proxy_list\nhttp://atomintersoft.com/products/alive-proxy/proxy-list/3128\nhttp://atomintersoft.com/products/alive-proxy/proxy-list/com\nhttp://atomintersoft.com/products/alive-proxy/proxy-list/high-anonymity/\nhttp://atomintersoft.com/products/alive-proxy/socks5-list\nhttp://atomintersoft.com/proxy_list_domain_com\nhttp://atomintersoft.com/proxy_list_domain_edu\nhttp://atomintersoft.com/proxy_list_domain_net\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt\nhttp://atomintersoft.com/proxy_list_domain_org\nhttp://atomintersoft.com/proxy_list_port_3128\nhttp://atomintersoft.com/proxy_list_port_80\nhttp://atomintersoft.com/proxy_list_port_8000\nhttp://atomintersoft.com/proxy_list_port_81\nhttp://hack-hack.chat.ru/proxy/allproxy.txt\nhttps://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt\nhttp://hack-hack.chat.ru/proxy/anon.txt\nhttp://hack-hack.chat.ru/proxy/p1.txt\nhttp://hack-hack.chat.ru/proxy/p2.txt\nhttp://hack-hack.chat.ru/proxy/p3.txt\nhttp://hack-hack.chat.ru/proxy/p4.txt\nhttps://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\nhttps://free-proxy-list.net/\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies.txt\nhttps://www.us-proxy.org/\nhttps://free-proxy-list.com/\nhttps://raw.githubusercontent.com/sunny9577/proxy-scraper/master/proxies.txt\nhttps://api.proxyscrape.com/?request=getproxies&proxytype=http&timeout=10000&country=all&ssl=all&anonymity=all\nhttps://api.proxyscrape.com/?request=getproxies&proxytype=socks4&timeout=10000&country=all\nhttps://api.proxyscrape.com/?request=getproxies&proxytype=socks5&timeout=10000&country=all\nhttps://spys.one/\nhttps://api.proxyscrape.com/?request=getproxies&proxytype=https&timeout=10000&country=all&ssl=all&anonymity=all\nhttps://api.proxyscrape.com/v2/?request=getproxies&protocol=socks4&timeout=10000&country=all\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/proxy.txt\nhttps://api.proxyscrape.com/v2/?request=getproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all\nhttps://api.proxyscrape.com/v2/?request=getproxies&protocol=socks5&timeout=10000&country=all\nhttps://free-proxy-list.net/\nhttp://www.freeproxylists.net/\nhttps://github.com/clarketm/proxy-list/blob/master/proxy-list-raw.txt\nhttps://spys.one/en/\nhttps://www.proxynova.com/proxy-server-list\nhttps://www.sslproxies.org/\nhttps://openproxy.space/list\nhttps://www.proxyscan.io/\nhttp://proxydb.net/\nhttps://advanced.name/freeproxy?ddexp4attempt=1\nhttp://nntime.com/\nhttps://www.duplichecker.com/free-proxy-list.php\nhttps://hidemy.name/en/proxy-list/\nhttps://scrapingant.com/free-proxies/\nhttps://www.proxynova.com/proxy-server-list/\nhttps://www.us-proxy.org/\nhttp://www.freeproxy.ru/en/free_proxy/get.htm\nhttps://www.proxyrack.com/free-proxy-list/\nhttps://www.coderduck.com/free-proxy-list\nhttps://proxyservers.pro/\nhttps://www.proxy-list.download/HTTP\nhttps://list.proxylistplus.com/Fresh-HTTP-Proxy-List-1\nhttps://www.hide-my-ip.com/proxylist.shtml\nhttps://proxyranker.com/\nhttps://proxyhttp.net/\nhttps://sockslist.net/\nhttp://proxy-list.org/german/index.php\nhttps://www.proxylist4all.com/\nhttps://proxypremium.top/download-proxy-list\nhttps://www.netzwelt.de/proxy/index.html\nhttp://www.proxyliste.com/\nhttps://www.proxy-listen.de/Proxy/Proxyliste.html\nhttps://smallseotools.com/es/free-proxy-list/\nhttps://list.proxylistplus.com/Fresh-HTTP-Proxy-List-1\nhttps://free-proxy-list.com/\nhttps://www.proxyranker.com/\nhttps://www.eleaks.to\nhttps://sockslist.net/proxy/server-socks-hide-ip-address/\nhttps://premiumproxy.net/distorting-proxy-list\nhttps://proxied.network/\nhttps://coolproxies.com/proxy-list.php\nhttps://www.freeproxy.world/\nhttps://proxies.gg/\nhttps://www.proxyrotator.com/free-proxy-list/\nhttp://proxy11.com/free-proxy\nhttp://aliveproxy.com/high-anonymity-proxy-list/\nhttps://multiproxy.org/all_proxy.htm\nhttp://www.multiproxy.org/anon_proxy.htm\nhttp://www.publicproxyservers.com/page1.html\nhttp://www.anonymitychecker.com/page1.html\nhttp://www.digitalcybersoft.com/ProxyList/fresh-proxy-list.shtml\nhttp://www.proxz.com/\nhttp://tools.rosinstrument.com/proxy/\nhttp://www.samair.ru/proxy/\nhttps://premiumproxy.net/\nhttps://hidemy.name/en/proxy-list/\nhttps://www.proxynova.com/proxy-server-list/\nhttps://premproxy.com/list/\nhttps://hidester.com/proxylist/\nhttps://openproxy.space/list\nhttp://proxydb.net/\nhttps://geonode.com/free-proxy-list\nhttps://www.proxy-list.download/HTTP\nhttps://spys.one/en/free-proxy-list/\nhttps://secure.echolink.org/proxylist.jsp\nhttp://0linh.blogspot.com/2009/11/free-proxy-20112009.html\nhttp://1000freeanonymousproxy.blogspot.com/2011/08/12-august-2011-fast-anonymous-proxy.html\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/socks4.txt\nhttps://api.proxyscrape.com/?request=displayproxies&timeout=10000\nhttp://proxyscrape.com/\nhttp://sslproxies24.blogspot.in/feeds/posts/default\nhttp://rootjazz.com/proxies/proxies.txt\nhttp://www.live-socks.net/feeds/posts/default\nhttp://www.httptunnel.ge/ProxyListForFree.aspx\nhttps://hidemy.name/en/proxy-list/\nhttps://free-proxy-list.net/\nhttps://www.proxynova.com/\nhttp://www.proxylists.net/\nhttp://www.freeproxylists.net/\nhttp://free-proxy.cz/en/\nhttp://spys.one/en/\nhttps://api.proxyscrape.com/v2/?request=getproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all\nhttps://openproxy.space/list/http\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt\nhttps://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt\nhttp://pubproxy.com/api/proxy\nhttps://www.juproxy.com/free_api\nhttps://api.openproxylist.xyz/http.txt\nhttps://raw.githubusercontent.com/hyperbeats/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-http.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-https.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-https.txt\nhttps://raw.githubusercontent.com/mmpx12/proxy-list/master/http.txt\nhttps://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt\nhttps://raw.githubusercontent.com/proxy4parsing/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/roosterkid/openproxylist/main/https_raw.txt\nhttps://raw.githubusercontent.com/shiftytr/proxy-list/master/http.txt\nhttps://raw.githubusercontent.com/thespeedx/proxy-list/master/http.txt\nhttps://www.proxy-list.download/api/v1/get?type=http\nhttps://www.proxy-list.download/api/v1/get?type=https\nhttps://www.proxyscan.io/download?type=http\nhttps://www.proxyscan.io/download?type=https\nhttps://openproxy.space/list/socks5\nhttps://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt\nhttps://api.openproxylist.xyz/socks5.txt\nhttps://api.proxyscrape.com/v2/?request=getproxies&protocol=socks5&timeout=10000&country=all\nhttps://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt\nhttps://raw.githubusercontent.com/hyperbeats/proxy-list/main/socks5.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks5.txt\nhttps://raw.githubusercontent.com/manugmg/proxy-365/main/socks5.txt\nhttps://raw.githubusercontent.com/mmpx12/proxy-list/master/socks5.txt\nhttps://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks5.txt\nhttps://raw.githubusercontent.com/roosterkid/openproxylist/main/socks5_raw.txt\nhttps://raw.githubusercontent.com/saschazesiger/free-proxies/master/proxies/socks5.txt\nhttps://raw.githubusercontent.com/shiftytr/proxy-list/master/socks5.txt\nhttps://raw.githubusercontent.com/thespeedx/proxy-list/master/socks5.txt\nhttps://www.proxy-list.download/api/v1/get?type=socks5\nhttps://www.proxyscan.io/download?type=socks5\nhttps://openproxy.space/list/socks4\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt\nhttps://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks4.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks4.txt\nhttps://www.socks-proxy.net/\nhttps://api.proxyscrape.com/v2/?request=getproxies&protocol=socks4&timeout=10000&country=all\nhttps://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS4_RAW.txt\nhttps://www.proxy-list.download/api/v1/get?type=socks4\nhttps://www.proxyscan.io/download?type=socks4\nhttps://api.openproxylist.xyz/socks4.txt\nhttps://raw.githubusercontent.com/mmpx12/proxy-list/master/socks4.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/socks4.txt\nhttps://raw.githubusercontent.com/UptimerBot/proxy-list/main/proxies/socks4.txt\nhttps://raw.githubusercontent.com/rdavydov/proxy-list/main/proxies/socks4.txt\nhttps://raw.githubusercontent.com/saschazesiger/Free-Proxies/master/proxies/socks4.txt\nhttps://raw.githubusercontent.com/HyperBeats/proxy-list/main/socks4.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/https.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/proxy.txt\nhttps://github.com/ShiftyTR/Proxy-List/raw/master/socks4.txt\nhttps://github.com/ShiftyTR/Proxy-List/raw/master/socks5.txt\nhttps://api.getproxylist.com/proxy\nhttps://api.getproxylist.com/proxy?lastTested=600\nhttps://api.getproxylist.com/proxy?port[]=80&port[]=8080\nhttps://api.getproxylist.com/proxy?anonymity[]=high%20anonymity&anonymity[]=transparent\nhttps://api.getproxylist.com/proxy?protocol[]=socks4&protocol[]=socks5\nhttps://api.getproxylist.com/proxy?allowsRefererHeader=1\nhttps://api.getproxylist.com/proxy?allowsUserAgentHeader=1\nhttps://api.getproxylist.com/proxy?allowsCustomHeaders=1\nhttps://api.getproxylist.com/proxy?allowsCookies=1\nhttps://api.getproxylist.com/proxy?allowsPost=1\nhttps://api.getproxylist.com/proxy?allowsHttps=1\nhttps://api.getproxylist.com/proxy?country[]=CA&country[]=US\nhttps://api.getproxylist.com/proxy?notCountry[]=CA&notCountry[]=US\nhttps://api.getproxylist.com/proxy?ip[]=31.202.117.137&ip[]=211.153.17.151\nhttps://api.getproxylist.com/proxy?all=1\nhttps://github.com/TheSpeedX/PROXY-List/raw/master/http.txt\nhttps://github.com/TheSpeedX/PROXY-List/raw/master/socks4.txt\nhttps://github.com/TheSpeedX/PROXY-List/raw/master/socks5.txt\nhttps://github.com/jetkai/proxy-list/raw/main/online-proxies/txt/proxies-http.txt\nhttps://github.com/jetkai/proxy-list/raw/main/online-proxies/txt/proxies-https.txt\nhttps://github.com/jetkai/proxy-list/raw/main/online-proxies/txt/proxies-socks4.txt\nhttps://github.com/jetkai/proxy-list/raw/main/online-proxies/txt/proxies-socks5.txt\nhttps://github.com/jetkai/proxy-list/raw/main/online-proxies/txt/proxies.txt\nhttps://github.com/monosans/proxy-list/raw/main/proxies/http.txt\nhttps://github.com/monosans/proxy-list/raw/main/proxies/socks4.txt\nhttps://github.com/monosans/proxy-list/raw/main/proxies/socks5.txt\nhttps://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt\nhttps://raw.githubusercontent.com/hookzof/socks5_list/master/tg/mtproto.json\nhttps://raw.githubusercontent.com/hookzof/socks5_list/master/tg/socks.json\nhttps://github.com/mmpx12/proxy-list/raw/master/http.txt\nhttps://github.com/mmpx12/proxy-list/raw/master/https.txt\nhttps://github.com/mmpx12/proxy-list/raw/master/proxies.txt\nhttps://github.com/mmpx12/proxy-list/raw/master/socks4.txt\nhttps://github.com/mmpx12/proxy-list/raw/master/socks5.txt\nhttps://github.com/UptimerBot/proxy-list/raw/main/proxies/http.txt\nhttps://github.com/UptimerBot/proxy-list/raw/main/proxies/socks4.txt\nhttps://github.com/UptimerBot/proxy-list/raw/main/proxies/socks5.txt\nhttps://github.com/zevtyardt/proxy-list/raw/main/all.txt\nhttps://github.com/roosterkid/openproxylist/raw/main/HTTPS_RAW.txt\nhttps://github.com/roosterkid/openproxylist/raw/main/SOCKS4_RAW.txt\nhttps://github.com/roosterkid/openproxylist/raw/main/SOCKS5_RAW.txt\nhttps://github.com/saschazesiger/Free-Proxies/raw/master/proxies/all.txt\nhttps://raw.githubusercontent.com/saschazesiger/Free-Proxies/master/proxies/raw.txt\nhttps://github.com/mertguvencli/http-proxy-list/raw/main/proxy-list/data.txt\nhttps://raw.githubusercontent.com/saisuiu/Lionkings-Http-Proxys-Proxies/main/cnfree.txt\nhttps://raw.githubusercontent.com/prxchk/proxy-list/main/http.txt \nhttps://raw.githubusercontent.com/prxchk/proxy-list/main/all.txt\nhttps://raw.githubusercontent.com/andigwandi/free-proxy/main/proxy_list.txt\n https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-https.txt\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt\n    https://api.proxyscrape.com/v2/?request=getproxies&protocol=http&timeout=500&country=all\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-https.txt\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-http.txt\n    https://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt\n    https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt\n    https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\n    https://www.proxy-list.download/api/v1/get?type=http\n    https://www.proxyscan.io/download?type=http\n    https://api.openproxylist.xyz/http.txt\n    https://github.com/mmpx12/proxy-list/raw/master/http.txt\nhttps://github.com/UptimerBot/proxy-list/raw/main/proxies/http.txt\nhttps://github.com/monosans/proxy-list/raw/main/proxies/http.txt\nhttps://github.com/jetkai/proxy-list/raw/main/online-proxies/txt/proxies-http.txt\nhttps://github.com/TheSpeedX/PROXY-List/raw/master/http.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt\nhttps://raw.githubusercontent.com/thespeedx/proxy-list/master/http.txt\nhttps://raw.githubusercontent.com/shiftytr/proxy-list/master/http.txt\nhttps://raw.githubusercontent.com/proxy4parsing/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt\nhttps://raw.githubusercontent.com/mmpx12/proxy-list/master/http.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt\nhttps://raw.githubusercontent.com/hyperbeats/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-http.txt\nhttps://api.openproxylist.xyz/http.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt\nhttps://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt\nhttps://raw.githubusercontent.com/HyperBeats/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/proxy4parsing/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt\nhttps://raw.githubusercontent.com/mmpx12/proxy-list/master/http.txt\nhttps://api.openproxylist.xyz/http.txt\nhttps://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-http.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt\nhttps://raw.githubusercontent.com/proxylist-to/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt\nhttps://proxyspace.pro/http.txt\nhttp://k2ysarchive.xyz/proxy/http.txt\nhttps://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt\nhttps://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt\nhttps://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\nhttps://api.openproxylist.xyz/http.txt\nhttps://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/http.txt\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\nhttps://api.openproxylist.xyz/http.txt\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\nhttps://raw.githubusercontent.com/Bardiafa/Proxy-Leecher/main/proxies.txt\nhttps://raw.githubusercontent.com/Bardiafa/Proxy-Leecher/main/good.txt\nhttps://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/http.txt\nhttps://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt\nhttps://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt\nhttps://raw.githubusercontent.com/ALIILAPRO/Proxy/main/http.txt\nhttps://raw.githubusercontent.com/yemixzy/proxy-list/main/proxies/http.txt\nhttps://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt\nhttps://raw.githubusercontent.com/yoannchb-pro/https-proxies/main/proxies.txt\nhttps://raw.githubusercontent.com/UptimerBot/proxy-list/master/proxies/http.txt\nhttps://raw.githubusercontent.com/UptimerBot/proxy-list/master/proxies/http.txt\nhttps://raw.githubusercontent.com/UptimerBot/proxy-list/master/proxies/http.txt\nhttps://raw.githubusercontent.com/andigwandi/free-proxy/main/proxy_list.txt\nhttps://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/http/http.txt\nhttps://raw.githubusercontent.com/proxy4parsing/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt\nhttps://raw.githubusercontent.com/sunny9577/proxy-scraper/master/proxies.txt\nhttps://raw.githubusercontent.com/caliphdev/Proxy-List/master/http.txt\nhttps://raw.githubusercontent.com/zevtyardt/proxy-list/main/http.txt\nhttps://raw.githubusercontent.com/fahimscirex/proxybd/master/anonymous-proxylist/http.txt\nhttps://raw.githubusercontent.com/ToShukKr/rProxyList/main/proxy-list.txt\nhttps://raw.githubusercontent.com/prxchk/proxy-list/main/http.txt\n'
+        94      STORE_NAME                    6: shttp
+        96      LOAD_CONST                    6: '\nhttps://tcplegitxnight.store/socks4.txt\nhttps://tcplegitxnight.store/socks5.txt\nhttps://raw.githubusercontent.com/MuRongPIG/Proxy-Master/main/socks5.txt\nhttps://raw.githubusercontent.com/MuRongPIG/Proxy-Master/main/socks4.txt\nhttps://api.proxyscrape.com/?request=displayproxies&proxytype=socks4&country=all\nhttps://api.proxyscrape.com/?request=displayproxies&proxytype=socks5&country=all\n    http://proxysearcher.sourceforge.net/Proxy%20List.php?type=socks\n    https://api.proxyscrape.com/v2/?request=getproxies&protocol=socks4\n    https://openproxy.space/list/socks4\n    https://openproxylist.xyz/socks4.txt\n    https://raw.githubusercontent.com/B4RC0DE-TM/proxy-list/main/SOCKS4.txt\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks4.txt\n    https://raw.githubusercontent.com/mmpx12/proxy-list/master/socks4.txt\n    https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS4_RAW.txt\n    https://raw.githubusercontent.com/saschazesiger/Free-Proxies/master/proxies/socks4.txt\n    https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/socks4.txt\n    https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt\n    https://www.freeproxychecker.com/result/socks4_proxies.txt\n    https://www.proxy-list.download/api/v1/get?type=socks4\n    https://www.proxyscan.io/download?type=socks4\n    http://proxysearcher.sourceforge.net/Proxy%20List.php?type=socks\n    https://api.proxyscrape.com/v2/?request=getproxies&protocol=socks5\n    https://openproxy.space/list/socks5\n    https://openproxylist.xyz/socks5.txt\n    https://raw.githubusercontent.com/B4RC0DE-TM/proxy-list/main/SOCKS5.txt\n    https://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks5.txt\n    https://raw.githubusercontent.com/manuGMG/proxy-365/main/SOCKS5.txt\n    https://raw.githubusercontent.com/mmpx12/proxy-list/master/socks5.txt\n    https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS5_RAW.txt\n    https://raw.githubusercontent.com/saschazesiger/Free-Proxies/master/proxies/socks5.txt\n    https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/socks5.txt\n    https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt\n    https://www.freeproxychecker.com/result/socks5_proxies.txt\n    https://www.proxy-list.download/api/v1/get?type=socks5\n    https://www.proxyscan.io/download?type=socks5\nhttps://openproxy.space/list/http\nhttps://openproxy.space/list/socks4\nhttps://openproxy.space/list/socks5\nhttps://free-proxy-list.net\nhttps://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers/\nhttp://proxydb.net/?protocol=http\nhttp://proxydb.net/?protocol=https\nhttp://proxydb.net/?protocol=socks4\nhttp://proxydb.net/?protocol=socks5\nhttps://www.us-proxy.org/\nhttps://premiumproxy.net/\nhttps://www.netzwelt.de/proxy/index.html\nhttps://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all\nhttps://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=10000&country=all\nhttps://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks5&timeout=10000&country=all\nhttps://www.proxy-list.download/HTTP\nhttps://www.proxy-list.download/HTTPS\nhttps://www.proxy-list.download/SOCKS4\nhttps://www.proxy-list.download/SOCKS5\nhttps://www.freeproxy.world/\nhttps://free-proxy-list.net/\nhttps://smallseotools.com/de/free-proxy-list/\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks5.txt\n    https://api.proxyscrape.com/v2/?request=getproxies&protocol=socks5&timeout=10000&country=all\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-socks5.txt\n    https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS5_RAW.txt\n    https://github.com/jetkai/proxy-list/blob/main/archive/txt/proxies-socks5.txt\n    https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks5.txt\n    https://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt\n    https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt\n    https://www.proxy-list.download/api/v1/get?type=socks5\n    https://www.proxyscan.io/download?type=socks5\n    https://api.openproxylist.xyz/socks5.txt\n        https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks4.txt\n    https://api.proxyscrape.com/v2/?request=getproxies&protocol=socks4&timeout=10000&country=all\n    https://raw.githubusercontent.com/jetkai/proxy-list/main/archive/txt/proxies-socks4.txt\n    https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS4_RAW.txt\n    https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks4.txt\n    https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt\n    https://www.proxy-list.download/api/v1/get?type=socks4\n    https://www.proxyscan.io/download?type=socks4\n    https://api.openproxylist.xyz/socks4.txt\n'
+        98      STORE_NAME                    7: psock
+        100     LOAD_CONST                    7: '\x1b[1;36m/-/ > \x1b[1;37m──────────────────────────────────────────────'
+        102     STORE_NAME                    8: huydev
+        104     LOAD_CONST                    8: '\n                 \x1b[1;35mSCAN \x1b[1;34mPROXYS \x1b[1;31mSOCKS \x1b[1;37m- \x1b[1;32mHTTP \x1b[1;33mBY \x1b[1;36mHUYKAISER\x1b[0m\n                 _        _______ _________ _______  _______  _______ \n|\\     /|       | \\    /\\(  ___  )\\__   __/(  ____ \\(  ____ \\(  ____ )\n| )   ( |       |  \\  / /| (   ) |   ) (   | (    \\/| (    \\/| (    )|\n| (___) | _____ |  (_/ / | (___) |   | |   | (_____ | (__    | (____)|\n|  ___  |(_____)|   _ (  |  ___  |   | |   (_____  )|  __)   |     __)\n| (   ) |       |  ( \\ \\ | (   ) |   | |         ) || (      | (\\ (   \n| )   ( |       |  /  \\ \\| )   ( |___) (___/\\____) || (____/\\| ) \\ \\__\n|/     \\|       |_/    \\/|/     \\|\\_______/\\_______)(_______/|/   \\__/\n                                                                      \n'
+        106     STORE_NAME                    9: text
+        108     PUSH_NULL                     
+        110     LOAD_NAME                     10: print
+        112     LOAD_NAME                     9: text
+        114     PRECALL                       1
+        118     CALL                          1
+        128     POP_TOP                       
+        130     PUSH_NULL                     
+        132     LOAD_NAME                     10: print
+        134     LOAD_CONST                    9: '\x1b[1;31m-> Lưu Ý Nhỏ'
+        136     PRECALL                       1
+        140     CALL                          1
+        150     POP_TOP                       
+        152     PUSH_NULL                     
+        154     LOAD_NAME                     10: print
+        156     LOAD_CONST                    10: '\x1b[1;36m/-/ > \x1b[0mMuốn Nhập Đơn Giản Nhất Thì HTTP Nhập http.txt Còn SOCKS Nhập socks.txt'
+        158     PRECALL                       1
+        162     CALL                          1
+        172     POP_TOP                       
+        174     PUSH_NULL                     
+        176     LOAD_NAME                     10: print
+        178     LOAD_CONST                    11: '\x1b[1;36m/-/ > \x1b[0mTool Scan Proxys Max Speed Ngon Nhất Bản V4 Thanks\x1b[0m'
+        180     PRECALL                       1
+        184     CALL                          1
+        194     POP_TOP                       
+        196     PUSH_NULL                     
+        198     LOAD_NAME                     10: print
+        200     LOAD_NAME                     8: huydev
+        202     PRECALL                       1
+        206     CALL                          1
+        216     POP_TOP                       
+        218     PUSH_NULL                     
+        220     LOAD_NAME                     11: input
+        222     LOAD_CONST                    12: '\x1b[1;36m/-/ > \x1b[0mNhập File Lưu Proxys HTTP Vô: \x1b[1;36m'
+        224     PRECALL                       1
+        228     CALL                          1
+        238     STORE_NAME                    12: filename_http
+        240     PUSH_NULL                     
+        242     LOAD_NAME                     11: input
+        244     LOAD_CONST                    13: '\x1b[1;36m/-/ > \x1b[0mNhập File Lưu Proxys SOCK Vô: \x1b[1;36m'
+        246     PRECALL                       1
+        250     CALL                          1
+        260     STORE_NAME                    13: filename_sock
+        262     PUSH_NULL                     
+        264     LOAD_NAME                     14: open
+        266     LOAD_NAME                     12: filename_http
+        268     LOAD_CONST                    14: 'w'
+        270     PRECALL                       2
+        274     CALL                          2
+        284     STORE_NAME                    15: file_http
+        286     PUSH_NULL                     
+        288     LOAD_NAME                     14: open
+        290     LOAD_NAME                     13: filename_sock
+        292     LOAD_CONST                    14: 'w'
+        294     PRECALL                       2
+        298     CALL                          2
+        308     STORE_NAME                    16: file_sock
+        310     BUILD_LIST                    0
+        312     STORE_NAME                    17: good_proxies_http
+        314     BUILD_LIST                    0
+        316     STORE_NAME                    18: good_proxies_sock
+        318     LOAD_CONST                    15: <CODE> huykaiser_one
+        320     MAKE_FUNCTION                 0
+        322     STORE_NAME                    19: huykaiser_one
+        324     LOAD_CONST                    16: <CODE> huykaiser_two
+        326     MAKE_FUNCTION                 0
+        328     STORE_NAME                    20: huykaiser_two
+        330     LOAD_CONST                    17: <CODE> huykaiser_three
+        332     MAKE_FUNCTION                 0
+        334     STORE_NAME                    21: huykaiser_three
+        336     LOAD_CONST                    18: <CODE> huykaiser_four
+        338     MAKE_FUNCTION                 0
+        340     STORE_NAME                    22: huykaiser_four
+        342     LOAD_CONST                    19: <CODE> huykaiser_five
+        344     MAKE_FUNCTION                 0
+        346     STORE_NAME                    23: huykaiser_five
+        348     LOAD_CONST                    20: <CODE> huykaiser_six
+        350     MAKE_FUNCTION                 0
+        352     STORE_NAME                    24: huykaiser_six
+        354     LOAD_CONST                    21: <CODE> huykaiser_seven
+        356     MAKE_FUNCTION                 0
+        358     STORE_NAME                    25: huykaiser_seven
+        360     LOAD_CONST                    22: <CODE> huykaiser_eight
+        362     MAKE_FUNCTION                 0
+        364     STORE_NAME                    26: huykaiser_eight
+        366     LOAD_CONST                    23: <CODE> huykaiser_nine
+        368     MAKE_FUNCTION                 0
+        370     STORE_NAME                    27: huykaiser_nine
+        372     LOAD_CONST                    24: <CODE> huykaiser_ten
+        374     MAKE_FUNCTION                 0
+        376     STORE_NAME                    28: huykaiser_ten
+        378     LOAD_CONST                    25: <CODE> start
+        380     MAKE_FUNCTION                 0
+        382     STORE_NAME                    29: start
+        384     LOAD_NAME                     6: shttp
+        386     LOAD_METHOD                   30: strip
+        408     PRECALL                       0
+        412     CALL                          0
+        422     LOAD_METHOD                   31: split
+        444     LOAD_CONST                    26: '\n'
+        446     PRECALL                       1
+        450     CALL                          1
+        460     STORE_NAME                    32: httpl
+        462     LOAD_NAME                     7: psock
+        464     LOAD_METHOD                   30: strip
+        486     PRECALL                       0
+        490     CALL                          0
+        500     LOAD_METHOD                   31: split
+        522     LOAD_CONST                    26: '\n'
+        524     PRECALL                       1
+        528     CALL                          1
+        538     STORE_NAME                    33: sockl
+        540     BUILD_LIST                    0
+        542     STORE_NAME                    34: threads
+        544     LOAD_NAME                     32: httpl
+        546     GET_ITER                      
+        548     FOR_ITER                      64 (to 678)
+        550     STORE_NAME                    35: url
+        552     LOAD_NAME                     35: url
+        554     POP_JUMP_FORWARD_IF_FALSE     60
+        556     PUSH_NULL                     
+        558     LOAD_NAME                     3: threading
+        560     LOAD_ATTR                     36: Thread
+        570     LOAD_NAME                     29: start
+        572     LOAD_NAME                     35: url
+        574     BUILD_TUPLE                   1
+        576     KW_NAMES                      27
+        578     PRECALL                       2
+        582     CALL                          2
+        592     STORE_NAME                    37: x
+        594     LOAD_NAME                     37: x
+        596     LOAD_METHOD                   29: start
+        618     PRECALL                       0
+        622     CALL                          0
+        632     POP_TOP                       
+        634     LOAD_NAME                     34: threads
+        636     LOAD_METHOD                   38: append
+        658     LOAD_NAME                     37: x
+        660     PRECALL                       1
+        664     CALL                          1
+        674     POP_TOP                       
+        676     JUMP_BACKWARD                 65
+        678     LOAD_NAME                     33: sockl
+        680     GET_ITER                      
+        682     FOR_ITER                      64 (to 812)
+        684     STORE_NAME                    35: url
+        686     LOAD_NAME                     35: url
+        688     POP_JUMP_FORWARD_IF_FALSE     60
+        690     PUSH_NULL                     
+        692     LOAD_NAME                     3: threading
+        694     LOAD_ATTR                     36: Thread
+        704     LOAD_NAME                     29: start
+        706     LOAD_NAME                     35: url
+        708     BUILD_TUPLE                   1
+        710     KW_NAMES                      27
+        712     PRECALL                       2
+        716     CALL                          2
+        726     STORE_NAME                    37: x
+        728     LOAD_NAME                     37: x
+        730     LOAD_METHOD                   29: start
+        752     PRECALL                       0
+        756     CALL                          0
+        766     POP_TOP                       
+        768     LOAD_NAME                     34: threads
+        770     LOAD_METHOD                   38: append
+        792     LOAD_NAME                     37: x
+        794     PRECALL                       1
+        798     CALL                          1
+        808     POP_TOP                       
+        810     JUMP_BACKWARD                 65
+        812     LOAD_NAME                     34: threads
+        814     GET_ITER                      
+        816     FOR_ITER                      22 (to 862)
+        818     STORE_NAME                    39: th
+        820     LOAD_NAME                     39: th
+        822     LOAD_METHOD                   40: join
+        844     PRECALL                       0
+        848     CALL                          0
+        858     POP_TOP                       
+        860     JUMP_BACKWARD                 23
+        862     PUSH_NULL                     
+        864     LOAD_NAME                     41: list
+        866     PUSH_NULL                     
+        868     LOAD_NAME                     42: set
+        870     LOAD_NAME                     17: good_proxies_http
+        872     PRECALL                       1
+        876     CALL                          1
+        886     PRECALL                       1
+        890     CALL                          1
+        900     STORE_NAME                    43: hpp
+        902     PUSH_NULL                     
+        904     LOAD_NAME                     41: list
+        906     PUSH_NULL                     
+        908     LOAD_NAME                     42: set
+        910     LOAD_NAME                     18: good_proxies_sock
+        912     PRECALL                       1
+        916     CALL                          1
+        926     PRECALL                       1
+        930     CALL                          1
+        940     STORE_NAME                    44: spp
+        942     PUSH_NULL                     
+        944     LOAD_NAME                     45: len
+        946     LOAD_NAME                     43: hpp
+        948     PRECALL                       1
+        952     CALL                          1
+        962     PUSH_NULL                     
+        964     LOAD_NAME                     45: len
+        966     LOAD_NAME                     44: spp
+        968     PRECALL                       1
+        972     CALL                          1
+        982     BINARY_OP                     0 (+)
+        986     STORE_NAME                    46: total_proxies
+        988     LOAD_NAME                     15: file_http
+        990     LOAD_METHOD                   47: close
+        1012    PRECALL                       0
+        1016    CALL                          0
+        1026    POP_TOP                       
+        1028    LOAD_NAME                     16: file_sock
+        1030    LOAD_METHOD                   47: close
+        1052    PRECALL                       0
+        1056    CALL                          0
+        1066    POP_TOP                       
+        1068    PUSH_NULL                     
+        1070    LOAD_NAME                     10: print
+        1072    LOAD_CONST                    28: '\n\x1b[1;37m[/] Tổng số proxies HTTP đã thu thập: \x1b[1;32m'
+        1074    PUSH_NULL                     
+        1076    LOAD_NAME                     45: len
+        1078    LOAD_NAME                     43: hpp
+        1080    PRECALL                       1
+        1084    CALL                          1
+        1094    FORMAT_VALUE                  0
+        1096    BUILD_STRING                  2
+        1098    PRECALL                       1
+        1102    CALL                          1
+        1112    POP_TOP                       
+        1114    PUSH_NULL                     
+        1116    LOAD_NAME                     10: print
+        1118    LOAD_CONST                    29: '\x1b[1;37m[/] Tổng số proxies SOCK đã thu thập: \x1b[1;32m'
+        1120    PUSH_NULL                     
+        1122    LOAD_NAME                     45: len
+        1124    LOAD_NAME                     44: spp
+        1126    PRECALL                       1
+        1130    CALL                          1
+        1140    FORMAT_VALUE                  0
+        1142    BUILD_STRING                  2
+        1144    PRECALL                       1
+        1148    CALL                          1
+        1158    POP_TOP                       
+        1160    PUSH_NULL                     
+        1162    LOAD_NAME                     10: print
+        1164    LOAD_CONST                    30: '\x1b[1;37m[/] Tổng số proxies đã thu thập: \x1b[1;32m'
+        1166    LOAD_NAME                     46: total_proxies
+        1168    FORMAT_VALUE                  0
+        1170    BUILD_STRING                  2
+        1172    PRECALL                       1
+        1176    CALL                          1
+        1186    POP_TOP                       
+        1188    LOAD_CONST                    1: None
+        1190    RETURN_VALUE                  
